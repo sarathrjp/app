@@ -1,0 +1,421 @@
+<msg time='2022-10-13T15:50:10.270+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='MMON_SLAVE'
+ pid='15188' version='1'>
+ <txt>Suspending MMON slave action kewrmafsa_ for 82800 seconds
+ </txt>
+</msg>
+<msg time='2022-10-15T07:08:37.679+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='8044'>
+ <txt>Setting Resource Manager plan SCHEDULER[0x3008]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+ </txt>
+</msg>
+<msg time='2022-10-15T07:08:37.682+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='8044'>
+ <txt>Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+ </txt>
+</msg>
+<msg time='2022-10-15T07:08:37.685+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='ksbs1p_real:2253:2371767696' client_id='' type='NOTIFICATION'
+ group='process start' level='16' host_id='SARATH'
+ host_addr='::1' module='' pid='4208'>
+ <txt>Starting background process VKRM
+ </txt>
+</msg>
+<msg time='2022-10-15T07:08:37.692+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='ksbrdp:3833:3697353022' type='NOTIFICATION' group='process start'
+ level='16' host_id='SARATH' host_addr='::1'
+ pid='22572'>
+ <txt>VKRM started with pid=21, OS id=22572 
+ </txt>
+</msg>
+<msg time='2022-10-15T07:08:40.264+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='kesaiTuneSqlDrv:4553:2579917519' client_id='' type='NOTIFICATION'
+ group='sqltune' level='16' host_id='SARATH'
+ host_addr='::1' module='DBMS_SCHEDULER' pid='17764'>
+ <txt>Begin automatic SQL Tuning Advisor run for special tuning task  &quot;SYS_AUTO_SQL_TUNING_TASK&quot;
+ </txt>
+</msg>
+<msg time='2022-10-15T07:08:41.105+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='kesaiTuneSqlDrv:5065:3456118459' client_id='' type='NOTIFICATION'
+ group='sqltune' level='16' host_id='SARATH'
+ host_addr='::1' module='DBMS_SCHEDULER' pid='17764'>
+ <txt>End automatic SQL Tuning Advisor run for special tuning task  &quot;SYS_AUTO_SQL_TUNING_TASK&quot;
+ </txt>
+</msg>
+<msg time='2022-10-15T07:08:46.229+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='19780'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-15T07:08:46.230+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='19780'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_19780.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-15T11:09:20.095+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='8716'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-15T11:09:20.100+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='8716'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j001_8716.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-15T15:10:02.349+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='22384'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-15T15:10:02.352+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='22384'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_22384.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-15T17:35:14.966+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='4420'>
+ <txt>Thread 1 advanced to log sequence 54 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2022-10-15T17:35:14.967+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='4420'>
+ <txt>  Current log# 3 seq# 54 mem# 0: D:\APP\SARAT\ORADATA\NOV30A\REDO03.LOG
+ </txt>
+</msg>
+<msg time='2022-10-15T19:15:37.916+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='19156'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-15T19:15:37.919+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='19156'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_19156.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-16T05:01:58.100+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='4208'>
+ <txt>Clearing Resource Manager plan via parameter
+ </txt>
+</msg>
+<msg time='2022-10-16T07:30:37.097+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='8044'>
+ <txt>Setting Resource Manager plan SCHEDULER[0x3009]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+ </txt>
+</msg>
+<msg time='2022-10-16T07:30:37.099+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='8044'>
+ <txt>Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+ </txt>
+</msg>
+<msg time='2022-10-16T07:30:37.102+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='ksbs1p_real:2253:2371767696' client_id='' type='NOTIFICATION'
+ group='process start' level='16' host_id='SARATH'
+ host_addr='::1' module='' pid='4208'>
+ <txt>Starting background process VKRM
+ </txt>
+</msg>
+<msg time='2022-10-16T07:30:37.217+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='ksbrdp:3833:3697353022' type='NOTIFICATION' group='process start'
+ level='16' host_id='SARATH' host_addr='::1'
+ pid='15264'>
+ <txt>VKRM started with pid=21, OS id=15264 
+ </txt>
+</msg>
+<msg time='2022-10-16T07:30:40.077+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='kesaiTuneSqlDrv:4553:2579917519' client_id='' type='NOTIFICATION'
+ group='sqltune' level='16' host_id='SARATH'
+ host_addr='::1' module='DBMS_SCHEDULER' pid='10192'>
+ <txt>Begin automatic SQL Tuning Advisor run for special tuning task  &quot;SYS_AUTO_SQL_TUNING_TASK&quot;
+ </txt>
+</msg>
+<msg time='2022-10-16T07:30:41.315+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='kesaiTuneSqlDrv:5065:3456118459' client_id='' type='NOTIFICATION'
+ group='sqltune' level='16' host_id='SARATH'
+ host_addr='::1' module='DBMS_SCHEDULER' pid='10192'>
+ <txt>End automatic SQL Tuning Advisor run for special tuning task  &quot;SYS_AUTO_SQL_TUNING_TASK&quot;
+ </txt>
+</msg>
+<msg time='2022-10-16T07:30:42.023+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='24728'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-16T07:30:42.029+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='24728'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j001_24728.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-16T11:31:20.783+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='10968'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-16T11:31:20.788+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='10968'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j001_10968.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-16T15:32:03.828+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='21648'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-16T15:32:03.832+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='21648'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_21648.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-16T19:32:46.775+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='25416'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-16T19:32:46.779+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='25416'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_25416.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-16T23:33:26.183+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='18748'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-16T23:33:26.185+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='18748'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j001_18748.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-17T03:09:24.727+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='4208'>
+ <txt>Clearing Resource Manager plan via parameter
+ </txt>
+</msg>
+<msg time='2022-10-17T09:31:00.833+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='4420'>
+ <txt>Thread 1 advanced to log sequence 55 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2022-10-17T09:31:00.834+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='4420'>
+ <txt>  Current log# 1 seq# 55 mem# 0: D:\APP\SARAT\ORADATA\NOV30A\REDO01.LOG
+ </txt>
+</msg>
+<msg time='2022-10-17T23:46:48.872+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='8044'>
+ <txt>Setting Resource Manager plan SCHEDULER[0x3003]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+ </txt>
+</msg>
+<msg time='2022-10-17T23:46:48.873+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='8044'>
+ <txt>Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+ </txt>
+</msg>
+<msg time='2022-10-17T23:46:48.874+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='ksbs1p_real:2253:2371767696' client_id='' type='NOTIFICATION'
+ group='process start' level='16' host_id='SARATH'
+ host_addr='::1' module='' pid='4208'>
+ <txt>Starting background process VKRM
+ </txt>
+</msg>
+<msg time='2022-10-17T23:46:48.880+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='ksbrdp:3833:3697353022' type='NOTIFICATION' group='process start'
+ level='16' host_id='SARATH' host_addr='::1'
+ pid='8696'>
+ <txt>VKRM started with pid=23, OS id=8696 
+ </txt>
+</msg>
+<msg time='2022-10-17T23:46:50.964+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='kesaiTuneSqlDrv:4553:2579917519' client_id='' type='NOTIFICATION'
+ group='sqltune' level='16' host_id='SARATH'
+ host_addr='::1' module='DBMS_SCHEDULER' pid='7140'>
+ <txt>Begin automatic SQL Tuning Advisor run for special tuning task  &quot;SYS_AUTO_SQL_TUNING_TASK&quot;
+ </txt>
+</msg>
+<msg time='2022-10-17T23:46:51.344+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='7696'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-17T23:46:51.345+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='7696'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j003_7696.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-17T23:46:51.527+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='kesaiTuneSqlDrv:5065:3456118459' client_id='' type='NOTIFICATION'
+ group='sqltune' level='16' host_id='SARATH'
+ host_addr='::1' module='DBMS_SCHEDULER' pid='7140'>
+ <txt>End automatic SQL Tuning Advisor run for special tuning task  &quot;SYS_AUTO_SQL_TUNING_TASK&quot;
+ </txt>
+</msg>
+<msg time='2022-10-18T21:40:29.298+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='4208'>
+ <txt>Clearing Resource Manager plan via parameter
+ </txt>
+</msg>
+<msg time='2022-10-19T22:02:05.457+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='8044'>
+ <txt>Setting Resource Manager plan SCHEDULER[0x3005]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+ </txt>
+</msg>
+<msg time='2022-10-19T22:02:05.477+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='8044'>
+ <txt>Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+ </txt>
+</msg>
+<msg time='2022-10-19T22:02:05.489+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='ksbs1p_real:2253:2371767696' client_id='' type='NOTIFICATION'
+ group='process start' level='16' host_id='SARATH'
+ host_addr='::1' module='' pid='4208'>
+ <txt>Starting background process VKRM
+ </txt>
+</msg>
+<msg time='2022-10-19T22:02:05.499+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='ksbrdp:3833:3697353022' type='NOTIFICATION' group='process start'
+ level='16' host_id='SARATH' host_addr='::1'
+ pid='16032'>
+ <txt>VKRM started with pid=21, OS id=16032 
+ </txt>
+</msg>
+<msg time='2022-10-19T22:02:07.304+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='4420'>
+ <txt>Thread 1 advanced to log sequence 56 (LGWR switch)
+ </txt>
+</msg>
+<msg time='2022-10-19T22:02:07.315+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='4420'>
+ <txt>  Current log# 2 seq# 56 mem# 0: D:\APP\SARAT\ORADATA\NOV30A\REDO02.LOG
+ </txt>
+</msg>
+<msg time='2022-10-19T22:02:07.962+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='kesaiTuneSqlDrv:4553:2579917519' client_id='' type='NOTIFICATION'
+ group='sqltune' level='16' host_id='SARATH'
+ host_addr='::1' module='DBMS_SCHEDULER' pid='25372'>
+ <txt>Begin automatic SQL Tuning Advisor run for special tuning task  &quot;SYS_AUTO_SQL_TUNING_TASK&quot;
+ </txt>
+</msg>
+<msg time='2022-10-19T22:02:10.027+05:30' org_id='oracle' comp_id='rdbms'
+ msg_id='kesaiTuneSqlDrv:5065:3456118459' client_id='' type='NOTIFICATION'
+ group='sqltune' level='16' host_id='SARATH'
+ host_addr='::1' module='DBMS_SCHEDULER' pid='25372'>
+ <txt>End automatic SQL Tuning Advisor run for special tuning task  &quot;SYS_AUTO_SQL_TUNING_TASK&quot;
+ </txt>
+</msg>
+<msg time='2022-10-19T22:02:10.559+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='22308'>
+ <txt>GATHER_STATS_JOB encountered errors.  Check the trace file.
+ </txt>
+</msg>
+<msg time='2022-10-19T22:02:10.729+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module='DBMS_SCHEDULER'
+ pid='22308'>
+ <txt>Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_22308.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ </txt>
+</msg>
+<msg time='2022-10-20T07:36:32.922+05:30' org_id='oracle' comp_id='rdbms'
+ client_id='' type='UNKNOWN' level='16'
+ host_id='SARATH' host_addr='::1' module=''
+ pid='4208'>
+ <txt>Clearing Resource Manager plan via parameter
+ </txt>
+</msg>

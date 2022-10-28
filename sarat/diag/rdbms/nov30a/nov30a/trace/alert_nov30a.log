@@ -1,0 +1,114 @@
+Thu Oct 13 15:50:10 2022
+Suspending MMON slave action kewrmafsa_ for 82800 seconds
+Sat Oct 15 07:08:37 2022
+Setting Resource Manager plan SCHEDULER[0x3008]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Sat Oct 15 07:08:37 2022
+Starting background process VKRM
+Sat Oct 15 07:08:37 2022
+VKRM started with pid=21, OS id=22572 
+Sat Oct 15 07:08:40 2022
+Begin automatic SQL Tuning Advisor run for special tuning task  "SYS_AUTO_SQL_TUNING_TASK"
+End automatic SQL Tuning Advisor run for special tuning task  "SYS_AUTO_SQL_TUNING_TASK"
+Sat Oct 15 07:08:46 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_19780.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+Sat Oct 15 11:09:20 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j001_8716.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+Sat Oct 15 15:10:02 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_22384.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+Sat Oct 15 17:35:14 2022
+Thread 1 advanced to log sequence 54 (LGWR switch)
+  Current log# 3 seq# 54 mem# 0: D:\APP\SARAT\ORADATA\NOV30A\REDO03.LOG
+Sat Oct 15 19:15:37 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_19156.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+Sun Oct 16 05:01:58 2022
+Clearing Resource Manager plan via parameter
+Sun Oct 16 07:30:37 2022
+Setting Resource Manager plan SCHEDULER[0x3009]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Sun Oct 16 07:30:37 2022
+Starting background process VKRM
+Sun Oct 16 07:30:37 2022
+VKRM started with pid=21, OS id=15264 
+Sun Oct 16 07:30:40 2022
+Begin automatic SQL Tuning Advisor run for special tuning task  "SYS_AUTO_SQL_TUNING_TASK"
+End automatic SQL Tuning Advisor run for special tuning task  "SYS_AUTO_SQL_TUNING_TASK"
+Sun Oct 16 07:30:42 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j001_24728.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+Sun Oct 16 11:31:20 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j001_10968.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+Sun Oct 16 15:32:03 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_21648.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+Sun Oct 16 19:32:46 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_25416.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+Sun Oct 16 23:33:26 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j001_18748.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+Mon Oct 17 03:09:24 2022
+Clearing Resource Manager plan via parameter
+Mon Oct 17 09:31:00 2022
+Thread 1 advanced to log sequence 55 (LGWR switch)
+  Current log# 1 seq# 55 mem# 0: D:\APP\SARAT\ORADATA\NOV30A\REDO01.LOG
+Mon Oct 17 23:46:48 2022
+Setting Resource Manager plan SCHEDULER[0x3003]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Mon Oct 17 23:46:48 2022
+Starting background process VKRM
+Mon Oct 17 23:46:48 2022
+VKRM started with pid=23, OS id=8696 
+Mon Oct 17 23:46:50 2022
+Begin automatic SQL Tuning Advisor run for special tuning task  "SYS_AUTO_SQL_TUNING_TASK"
+Mon Oct 17 23:46:51 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j003_7696.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+End automatic SQL Tuning Advisor run for special tuning task  "SYS_AUTO_SQL_TUNING_TASK"
+Tue Oct 18 21:40:29 2022
+Clearing Resource Manager plan via parameter
+Wed Oct 19 22:02:05 2022
+Setting Resource Manager plan SCHEDULER[0x3005]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Wed Oct 19 22:02:05 2022
+Starting background process VKRM
+Wed Oct 19 22:02:05 2022
+VKRM started with pid=21, OS id=16032 
+Wed Oct 19 22:02:07 2022
+Thread 1 advanced to log sequence 56 (LGWR switch)
+  Current log# 2 seq# 56 mem# 0: D:\APP\SARAT\ORADATA\NOV30A\REDO02.LOG
+Wed Oct 19 22:02:07 2022
+Begin automatic SQL Tuning Advisor run for special tuning task  "SYS_AUTO_SQL_TUNING_TASK"
+End automatic SQL Tuning Advisor run for special tuning task  "SYS_AUTO_SQL_TUNING_TASK"
+Wed Oct 19 22:02:10 2022
+GATHER_STATS_JOB encountered errors.  Check the trace file.
+Errors in file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_22308.trc:
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+Thu Oct 20 07:36:32 2022
+Clearing Resource Manager plan via parameter

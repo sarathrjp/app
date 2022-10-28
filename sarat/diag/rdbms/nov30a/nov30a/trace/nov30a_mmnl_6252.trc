@@ -1,0 +1,106 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_mmnl_6252.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:6076M/16167M, Ph+PgF:9352M/24871M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 16
+Windows thread id: 6252, image: ORACLE.EXE (MMNL)
+
+
+*** 2022-10-13 08:47:11.090
+*** SESSION ID:(2.1) 2022-10-13 08:47:11.090
+*** CLIENT ID:() 2022-10-13 08:47:11.090
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-13 08:47:11.090
+*** MODULE NAME:() 2022-10-13 08:47:11.090
+*** ACTION NAME:() 2022-10-13 08:47:11.090
+ 
+
+*** TRACE FILE RECREATED AFTER BEING REMOVED ***
+
+ktsmgtur(): TUR was not tuned for 328 secs
+ktsmgtur(): TUR was not tuned for 392 secs
+
+*** 2022-10-13 09:19:25.578
+ktsmgtur(): TUR was not tuned for 570 secs
+MMNL absent for 8431 secs; Foregrounds taking over
+
+*** 2022-10-13 11:28:45.944
+MMNL absent for 8431 secs; Foregrounds taking over
+MMNL absent for 8431 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 8431 secs
+ktsmg_advance_slot(): MMNL advances slot after 8734 seconds
+ktsmgtur(): TUR was not tuned for 310 secs
+ktsmgtur(): TUR was not tuned for 310 secs
+MMNL absent for 46680 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 300 secs
+ktsmgtur(): TUR was not tuned for 399 secs
+ktsmgtur(): TUR was not tuned for 783 secs
+
+*** 2022-10-15 16:05:02.298
+ktsmg_advance_slot(): MMNL advances slot after 1310 seconds
+ktsmgtur(): TUR was not tuned for 300 secs
+MMNL absent for 1722 secs; Foregrounds taking over
+
+*** 2022-10-15 23:22:22.629
+MMNL absent for 1722 secs; Foregrounds taking over
+MMNL absent for 1722 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 1722 secs
+ktsmg_advance_slot(): MMNL advances slot after 1750 seconds
+MMNL absent for 20373 secs; Foregrounds taking over
+
+*** 2022-10-16 05:01:55.165
+MMNL absent for 20373 secs; Foregrounds taking over
+MMNL absent for 20373 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 20373 secs
+ktsmg_advance_slot(): MMNL advances slot after 20923 seconds
+MMNL absent for 3338 secs; Foregrounds taking over
+
+*** 2022-10-16 23:33:20.965
+MMNL absent for 3338 secs; Foregrounds taking over
+MMNL absent for 3338 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 3338 secs
+ktsmg_advance_slot(): MMNL advances slot after 3609 seconds
+ktsmgtur(): TUR was not tuned for 316 secs
+MMNL absent for 10303 secs; Foregrounds taking over
+
+*** 2022-10-17 03:09:21.739
+MMNL absent for 10303 secs; Foregrounds taking over
+MMNL absent for 10303 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 10303 secs
+ktsmg_advance_slot(): MMNL advances slot after 10569 seconds
+MMNL absent for 18984 secs; Foregrounds taking over
+
+*** 2022-10-17 08:25:45.202
+MMNL absent for 18984 secs; Foregrounds taking over
+MMNL absent for 18984 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 18984 secs
+ktsmg_advance_slot(): MMNL advances slot after 19353 seconds
+MMNL absent for 1759 secs; Foregrounds taking over
+
+*** 2022-10-17 11:53:48.535
+MMNL absent for 1759 secs; Foregrounds taking over
+MMNL absent for 1759 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 1759 secs
+ktsmg_advance_slot(): MMNL advances slot after 1836 seconds
+
+*** 2022-10-17 12:03:29.833
+ktsmgtur(): TUR was not tuned for 312 secs
+MMNL absent for 23048 secs; Foregrounds taking over
+
+*** 2022-10-19 04:15:27.106
+MMNL absent for 23048 secs; Foregrounds taking over
+MMNL absent for 23048 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 23048 secs
+ktsmg_advance_slot(): MMNL advances slot after 23535 seconds
+MMNL absent for 26479 secs; Foregrounds taking over
+
+*** 2022-10-20 07:36:31.008
+MMNL absent for 26479 secs; Foregrounds taking over
+MMNL absent for 26479 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 26479 secs
+ktsmg_advance_slot(): MMNL advances slot after 26599 seconds
+ktsmgtur(): TUR was not tuned for 616 secs

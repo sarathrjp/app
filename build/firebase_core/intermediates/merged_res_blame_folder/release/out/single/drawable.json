@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\app\\build\\firebase_core\\intermediates\\merged_res\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\sarat\\.gradle\\caches\\transforms-3\\91f744c1c21fcfe281b2bb04dda7e85b\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\app\\build\\firebase_core\\intermediates\\merged_res\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\sarat\\.gradle\\caches\\transforms-3\\91f744c1c21fcfe281b2bb04dda7e85b\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\app\\build\\firebase_core\\intermediates\\merged_res\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\sarat\\.gradle\\caches\\transforms-3\\91f744c1c21fcfe281b2bb04dda7e85b\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\app\\build\\firebase_core\\intermediates\\merged_res\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\sarat\\.gradle\\caches\\transforms-3\\91f744c1c21fcfe281b2bb04dda7e85b\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    }
+]

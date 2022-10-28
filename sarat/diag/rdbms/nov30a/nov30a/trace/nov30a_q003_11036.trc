@@ -1,0 +1,28 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_q003_11036.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:1481M/16167M, Ph+PgF:4130M/27987M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 20
+Windows thread id: 11036, image: ORACLE.EXE (Q003)
+
+
+*** 2022-10-17 23:46:44.146
+*** SESSION ID:(130.996) 2022-10-17 23:46:44.146
+*** CLIENT ID:() 2022-10-17 23:46:44.146
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-17 23:46:44.146
+*** MODULE NAME:(STREAMS) 2022-10-17 23:46:44.146
+*** ACTION NAME:(QMON Slave) 2022-10-17 23:46:44.146
+ 
+MMNL absent for 26171 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 26171 secs
+ktsmg_advance_slot(): MMNL advances slot after 26612 seconds
+MMNL absent for 28324 secs; Foregrounds taking over
+
+*** 2022-10-19 22:02:04.981
+ktsmgtur(): TUR was not tuned for 28324 secs
+ktsmg_advance_slot(): MMNL advances slot after 28733 seconds

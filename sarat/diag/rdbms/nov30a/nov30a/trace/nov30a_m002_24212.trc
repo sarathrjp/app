@@ -1,0 +1,257 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_m002_24212.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:6356M/16167M, Ph+PgF:9879M/24871M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 31
+Windows thread id: 24212, image: ORACLE.EXE (M002)
+
+
+*** 2022-10-13 14:49:54.980
+*** SESSION ID:(222.100) 2022-10-13 14:49:54.980
+*** CLIENT ID:() 2022-10-13 14:49:54.980
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-13 14:49:54.980
+*** MODULE NAME:(MMON_SLAVE) 2022-10-13 14:49:54.980
+*** ACTION NAME:(Auto-Flush Slave Action) 2022-10-13 14:49:54.980
+ 
+
+*** 2022-10-13 14:50:06.035
+DDE rules only execution for: ORA 12751
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+Executing ASYNC actions
+----- START DDE Action: 'ORA_12751_DUMP' (Sync) -----
+Runtime exceeded 900 seconds
+Time limit violation detected at:
+ksedsts()+585<-kspol_12751_dump()+189<-dbgdaExecuteAction()+1093<-dbgerRunAction()+158<-dbgerRunActions()+4220<-dbgexPhaseII()+1939<-dbgexProcessError()+2563<-dbgeExecuteForError()+65<-dbgePostErrorKGE()+1726<-dbkePostKGE_kgsf()+75<-kgesev()+328<-ksesec0()+108
+<-ksucin()+161<-qerfxFetch()+5208<-qerjotFetch()+3617<-qerjotFetch()+3617<-qergsFetch()+8664<-qervwFetch()+177<-qerjotFetch()+642<-rwsfcd()+136<-qerltcFetch()+1447<-insexe()+923<-opiexe()+6188<-kpoal8()+2482<-opiodr()+1662<-__PGOSF523_kpoodrc()+32<-rpiswu2()+2757
+<-kpoodr()+717<-xupirtrc()+2739<-upirtrc()+124<-kpurcsc()+150<-kpuexec()+9766<-OCIStmtExecute()+70<-kewrose_oci_stmt_exec()+79<-kewrgwxf1_gwrsql_exft_1()+407<-kewrgwxf_gwrsql_exft()+620<-kewrews_execute_wr_sql()+72<-kewrftbs_flush_table_by_sql()+210<-kewrft_flush_table()+150
+<-kewrftec_flush_table_ehdlcx()+454<-kewrfat_flush_all_tables()+1021<-kewrfos_flush_onesnap()+167<-kewrfsc_flush_snapshot_c()+613<-kewrafs_auto_flush_slave()+548<-kebm_slave_main()+856<-ksvrdp()+2506<-opirip()+965<-opidrv()+909<-sou2o()+98<-opimai_real()+299
+<-opimai()+191<-BackgroundThreadStart()+693<-00007FFA6524244D<-00007FFA66C2DF78
+Current Wait Stack:
+  Not in wait; last wait ended 44.226895 sec ago 
+Wait State:
+  fixed_waits=0 flags=0x21 boundary=0x0000000000000000/-1
+Session Wait History:
+    elapsed time of 44.226953 sec since last wait
+ 0: waited for 'db file sequential read'
+    file#=0x5, block#=0x1, blocks=0x1
+    wait_id=53 seq_num=54 snap_id=1
+    wait times: snap=11.054141 sec, exc=11.054141 sec, total=11.054141 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000007 sec of elapsed time
+ 1: waited for 'Disk file operations I/O'
+    FileOperation=0x2, fileno=0x5, filetype=0x2
+    wait_id=52 seq_num=53 snap_id=1
+    wait times: snap=0.000102 sec, exc=0.000102 sec, total=0.000102 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000088 sec of elapsed time
+ 2: waited for 'db file sequential read'
+    file#=0x4, block#=0x1, blocks=0x1
+    wait_id=51 seq_num=52 snap_id=1
+    wait times: snap=11.056648 sec, exc=11.056648 sec, total=11.056648 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000008 sec of elapsed time
+ 3: waited for 'Disk file operations I/O'
+    FileOperation=0x2, fileno=0x4, filetype=0x2
+    wait_id=50 seq_num=51 snap_id=1
+    wait times: snap=0.000140 sec, exc=0.000140 sec, total=0.000140 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000069 sec of elapsed time
+ 4: waited for 'db file sequential read'
+    file#=0x3, block#=0x1, blocks=0x1
+    wait_id=49 seq_num=50 snap_id=1
+    wait times: snap=11.056581 sec, exc=11.056581 sec, total=11.056581 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000004 sec of elapsed time
+ 5: waited for 'Disk file operations I/O'
+    FileOperation=0x2, fileno=0x3, filetype=0x2
+    wait_id=48 seq_num=49 snap_id=1
+    wait times: snap=0.000077 sec, exc=0.000077 sec, total=0.000077 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000064 sec of elapsed time
+ 6: waited for 'db file sequential read'
+    file#=0x2, block#=0x1, blocks=0x1
+    wait_id=47 seq_num=48 snap_id=1
+    wait times: snap=11.056476 sec, exc=11.056476 sec, total=11.056476 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000135 sec of elapsed time
+ 7: waited for 'db file sequential read'
+    file#=0x1, block#=0x1, blocks=0x1
+    wait_id=46 seq_num=47 snap_id=1
+    wait times: snap=11.051735 sec, exc=11.051735 sec, total=11.051735 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000012 sec of elapsed time
+ 8: waited for 'control file sequential read'
+    file#=0x0, block#=0x18, blocks=0x1
+    wait_id=45 seq_num=46 snap_id=1
+    wait times: snap=11.057835 sec, exc=11.057835 sec, total=11.057835 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000010 sec of elapsed time
+ 9: waited for 'control file sequential read'
+    file#=0x0, block#=0x11, blocks=0x1
+    wait_id=44 seq_num=45 snap_id=1
+    wait times: snap=11.053276 sec, exc=11.053276 sec, total=11.053276 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000109 sec of elapsed time
+Sampled Session History of session 222 serial 100
+---------------------------------------------------
+The sampled session history is constructed by sampling
+the target session every 1 second. The sampling process
+captures at each sample if the session is in a non-idle wait,
+an idle wait, or not in a wait. If the session is in a
+non-idle wait then one interval is shown for all the samples
+the session was in the same non-idle wait. If the
+session is in an idle wait or not in a wait for
+consecutive samples then one interval is shown for all
+the consecutive samples. Though we display these consecutive
+samples  in a single interval the session may NOT be continuously
+idle or not in a wait (the sampling process does not know).
+ 
+The history is displayed in reverse chronological order.
+ 
+sample interval: 1 sec, max history 120 sec
+---------------------------------------------------
+  [1 sample,                                                          14:50:06]
+    not in wait at each sample
+  [120 samples,                                            14:48:39 - 14:50:05]
+    idle wait at each sample
+----- END DDE Action: 'ORA_12751_DUMP' (SUCCESS, 3317 csec) -----
+----- END DDE Actions Dump (total 3317 csec) -----
+*** KEWROCISTMTEXEC - encountered error: (ORA-12751: cpu time or run time policy violation
+)  
+  *** SQLSTR: total-len=1107, dump-len=240, 
+      STR={insert into wrh$_tablespace_stat    (snap_id, dbid, instance_number, ts#, tsname, contents,     status, segment_space_management, extent_management,     is_backup)  select    :snap_id, :dbid, :instance_number,    ts.ts#, ts.name as tsname, }
+DDE rules only execution for: ORA 12751
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+Executing ASYNC actions
+----- START DDE Action: 'ORA_12751_DUMP' (Sync) -----
+Runtime exceeded 900 seconds
+Time limit violation detected at:
+ksedsts()+585<-kspol_12751_dump()+189<-dbgdaExecuteAction()+1093<-dbgerRunAction()+158<-dbgerRunActions()+4220<-dbgexPhaseII()+1939<-dbgexProcessError()+2563<-dbgeExecuteForError()+65<-dbgePostErrorKGE()+1726<-dbkePostKGE_kgsf()+75<-kgeade()+560<-kgerev()+125
+<-kserec1()+111<-OCIKSEC()+225<-kewrose_oci_stmt_exec()+335<-kewrgwxf1_gwrsql_exft_1()+407<-kewrgwxf_gwrsql_exft()+620<-kewrews_execute_wr_sql()+72<-kewrftbs_flush_table_by_sql()+210<-kewrft_flush_table()+150<-kewrftec_flush_table_ehdlcx()+454<-kewrfat_flush_all_tables()+1021
+
+*** 2022-10-13 14:51:12.381
+<-kewrfos_flush_onesnap()+167<-kewrfsc_flush_snapshot_c()+613<-kewrafs_auto_flush_slave()+548<-kebm_slave_main()+856<-ksvrdp()+2506<-opirip()+965<-opidrv()+909<-sou2o()+98<-opimai_real()+299<-opimai()+191<-BackgroundThreadStart()+693<-00007FFA6524244D<-00007FFA66C2DF78
+Current Wait Stack:
+  Not in wait; last wait ended 1 min 17 sec ago 
+Wait State:
+  fixed_waits=0 flags=0x21 boundary=0x0000000000000000/-1
+Session Wait History:
+    elapsed time of 1 min 17 sec since last wait
+ 0: waited for 'db file sequential read'
+    file#=0x5, block#=0x1, blocks=0x1
+    wait_id=53 seq_num=54 snap_id=1
+    wait times: snap=11.054141 sec, exc=11.054141 sec, total=11.054141 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000007 sec of elapsed time
+ 1: waited for 'Disk file operations I/O'
+    FileOperation=0x2, fileno=0x5, filetype=0x2
+    wait_id=52 seq_num=53 snap_id=1
+    wait times: snap=0.000102 sec, exc=0.000102 sec, total=0.000102 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000088 sec of elapsed time
+ 2: waited for 'db file sequential read'
+    file#=0x4, block#=0x1, blocks=0x1
+    wait_id=51 seq_num=52 snap_id=1
+    wait times: snap=11.056648 sec, exc=11.056648 sec, total=11.056648 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000008 sec of elapsed time
+ 3: waited for 'Disk file operations I/O'
+    FileOperation=0x2, fileno=0x4, filetype=0x2
+    wait_id=50 seq_num=51 snap_id=1
+    wait times: snap=0.000140 sec, exc=0.000140 sec, total=0.000140 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000069 sec of elapsed time
+ 4: waited for 'db file sequential read'
+    file#=0x3, block#=0x1, blocks=0x1
+    wait_id=49 seq_num=50 snap_id=1
+    wait times: snap=11.056581 sec, exc=11.056581 sec, total=11.056581 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000004 sec of elapsed time
+ 5: waited for 'Disk file operations I/O'
+    FileOperation=0x2, fileno=0x3, filetype=0x2
+    wait_id=48 seq_num=49 snap_id=1
+    wait times: snap=0.000077 sec, exc=0.000077 sec, total=0.000077 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000064 sec of elapsed time
+ 6: waited for 'db file sequential read'
+    file#=0x2, block#=0x1, blocks=0x1
+    wait_id=47 seq_num=48 snap_id=1
+    wait times: snap=11.056476 sec, exc=11.056476 sec, total=11.056476 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000135 sec of elapsed time
+ 7: waited for 'db file sequential read'
+    file#=0x1, block#=0x1, blocks=0x1
+    wait_id=46 seq_num=47 snap_id=1
+    wait times: snap=11.051735 sec, exc=11.051735 sec, total=11.051735 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000012 sec of elapsed time
+ 8: waited for 'control file sequential read'
+    file#=0x0, block#=0x18, blocks=0x1
+    wait_id=45 seq_num=46 snap_id=1
+    wait times: snap=11.057835 sec, exc=11.057835 sec, total=11.057835 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000010 sec of elapsed time
+ 9: waited for 'control file sequential read'
+    file#=0x0, block#=0x11, blocks=0x1
+    wait_id=44 seq_num=45 snap_id=1
+    wait times: snap=11.053276 sec, exc=11.053276 sec, total=11.053276 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000109 sec of elapsed time
+Sampled Session History of session 222 serial 100
+---------------------------------------------------
+The sampled session history is constructed by sampling
+the target session every 1 second. The sampling process
+captures at each sample if the session is in a non-idle wait,
+an idle wait, or not in a wait. If the session is in a
+non-idle wait then one interval is shown for all the samples
+the session was in the same non-idle wait. If the
+session is in an idle wait or not in a wait for
+consecutive samples then one interval is shown for all
+the consecutive samples. Though we display these consecutive
+samples  in a single interval the session may NOT be continuously
+idle or not in a wait (the sampling process does not know).
+ 
+The history is displayed in reverse chronological order.
+ 
+sample interval: 1 sec, max history 120 sec
+---------------------------------------------------
+  [1 sample,                                                          14:50:06]
+    not in wait at each sample
+  [120 samples,                                            14:49:12 - 14:50:05]
+    idle wait at each sample
+----- END DDE Action: 'ORA_12751_DUMP' (SUCCESS, 3317 csec) -----
+----- END DDE Actions Dump (total 3317 csec) -----
+*** KEWRAFM1: Error=13509 encountered by kewrfteh
+*** KEWRAFS: Error=13509 encountered by Auto Flush Slave.
+KEBM: MMON slave action policy violation. kewrmafsa_; viol=1; err=13509

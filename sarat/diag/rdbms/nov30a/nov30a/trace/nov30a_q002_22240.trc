@@ -1,0 +1,21 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_q002_22240.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:1743M/16167M, Ph+PgF:3355M/26942M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 26
+Windows thread id: 22240, image: ORACLE.EXE (Q002)
+
+
+*** 2022-10-17 08:25:45.184
+*** SESSION ID:(65.331) 2022-10-17 08:25:45.184
+*** CLIENT ID:() 2022-10-17 08:25:45.184
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-17 08:25:45.184
+*** MODULE NAME:(STREAMS) 2022-10-17 08:25:45.184
+*** ACTION NAME:(QMON Slave) 2022-10-17 08:25:45.184
+ 
+MMNL absent for 18984 secs; Foregrounds taking over

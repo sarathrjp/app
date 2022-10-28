@@ -1,0 +1,23 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_m000_21800.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:6646M/16167M, Ph+PgF:10119M/24871M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 21
+Windows thread id: 21800, image: ORACLE.EXE (M000)
+
+
+*** 2022-10-13 11:54:41.694
+*** SESSION ID:(156.598) 2022-10-13 11:54:41.694
+*** CLIENT ID:() 2022-10-13 11:54:41.694
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-13 11:54:41.694
+*** MODULE NAME:(MMON_SLAVE) 2022-10-13 11:54:41.694
+*** ACTION NAME:(Monitor Tablespace Thresholds) 2022-10-13 11:54:41.694
+ 
+MMNL absent for 1556 secs; Foregrounds taking over
+ktsmgtur(): TUR was not tuned for 1556 secs
+ktsmg_advance_slot(): MMNL advances slot after 1890 seconds

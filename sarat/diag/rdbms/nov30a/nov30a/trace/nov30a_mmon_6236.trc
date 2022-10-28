@@ -1,0 +1,136 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_mmon_6236.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:6289M/16167M, Ph+PgF:9809M/24871M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 15
+Windows thread id: 6236, image: ORACLE.EXE (MMON)
+
+
+*** 2022-10-13 11:54:44.701
+*** SESSION ID:(219.1) 2022-10-13 11:54:44.701
+*** CLIENT ID:() 2022-10-13 11:54:44.701
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-13 11:54:44.701
+*** MODULE NAME:() 2022-10-13 11:54:44.701
+*** ACTION NAME:() 2022-10-13 11:54:44.701
+ 
+
+*** TRACE FILE RECREATED AFTER BEING REMOVED ***
+
+DBGIRG summary maintenance failed with error 48223
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-13 16:31:15.697
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-13 16:46:00.114
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-13 17:00:33.538
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+
+*** 2022-10-13 17:15:18.010
+Unable to schedule a MMON slave at: Auto Flush Main 1
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-13 17:29:51.405
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-13 17:44:24.822
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+
+*** 2022-10-13 17:58:58.250
+Unable to schedule a MMON slave at: Auto Flush Main 1
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-13 18:13:31.680
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-13 18:42:49.531
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-14 07:42:42.507
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-14 08:15:57.436
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-14 08:48:03.055
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-14 09:52:14.100
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-14 10:56:25.448
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-14 12:00:36.895
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-14 13:04:48.289
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+Unable to schedule a MMON slave at: Auto Flush Main 1
+
+*** 2022-10-14 14:08:59.816
+  Slave action has been temporarily suspended
+    - Slave action had prior policy violations.
+  Unknown return code: 101
+MMNL absent for 1435 secs; Foregrounds taking over
+
+*** 2022-10-17 00:17:37.217
+ktsmgtur(): TUR was not tuned for 1435 secs
+ktsmg_advance_slot(): MMNL advances slot after 1466 seconds
+MMNL absent for 3759 secs; Foregrounds taking over
+
+*** 2022-10-17 13:06:08.214
+ktsmgtur(): TUR was not tuned for 3759 secs
+ktsmg_advance_slot(): MMNL advances slot after 3777 seconds

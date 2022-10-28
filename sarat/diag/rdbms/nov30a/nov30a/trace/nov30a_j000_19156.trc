@@ -1,0 +1,73 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j000_19156.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:3091M/16167M, Ph+PgF:5402M/26551M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 20
+Windows thread id: 19156, image: ORACLE.EXE (J000)
+
+
+*** 2022-10-15 19:15:37.917
+*** SESSION ID:(130.582) 2022-10-15 19:15:37.917
+*** CLIENT ID:() 2022-10-15 19:15:37.917
+*** SERVICE NAME:(SYS$USERS) 2022-10-15 19:15:37.917
+*** MODULE NAME:(DBMS_SCHEDULER) 2022-10-15 19:15:37.917
+*** ACTION NAME:(ORA$AT_OS_OPT_SY_368) 2022-10-15 19:15:37.917
+ 
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+
+*** 2022-10-15 19:15:37.919
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYS"','"MON_MODS$"','""', ...)
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+
+*** 2022-10-15 19:15:37.937
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYS"','"WRH$_BUFFER_POOL_STATISTICS"','""', ...)
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+
+*** 2022-10-15 19:15:37.954
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYS"','"WRH$_SGA"','""', ...)
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+
+*** 2022-10-15 19:15:37.970
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYS"','"WRH$_PROCESS_MEMORY_SUMMARY"','""', ...)
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+
+*** 2022-10-15 19:15:37.987
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYS"','"WRH$_RESOURCE_LIMIT"','""', ...)
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+
+*** 2022-10-15 19:15:38.005
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYS"','"WRH$_SQL_WORKAREA_HISTOGRAM"','""', ...)
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+
+*** 2022-10-15 19:15:38.020
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYS"','"WRH$_INSTANCE_RECOVERY"','""', ...)
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+
+*** 2022-10-15 19:15:38.030
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYS"','"WRH$_JAVA_POOL_ADVICE"','""', ...)
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+
+*** 2022-10-15 19:15:38.047
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYS"','"WRH$_THREAD"','""', ...)
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+
+*** 2022-10-15 19:15:38.066
+GATHER_STATS_JOB: GATHER_TABLE_STATS('"SYS"','"WRH$_LOG"','""', ...)
+ORA-31024: Parser initialization failed with LPX-201 error
+while parsing a stream to XOB
+ Too many errors...  Rest of the erros are not reporded.

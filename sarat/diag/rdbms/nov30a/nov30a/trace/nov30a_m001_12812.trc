@@ -1,0 +1,22 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_m001_12812.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:6794M/16167M, Ph+PgF:10526M/24871M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 24
+Windows thread id: 12812, image: ORACLE.EXE (M001)
+
+
+*** 2022-10-15 22:09:07.704
+*** SESSION ID:(4.895) 2022-10-15 22:09:07.704
+*** CLIENT ID:() 2022-10-15 22:09:07.704
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-15 22:09:07.704
+*** MODULE NAME:(MMON_SLAVE) 2022-10-15 22:09:07.704
+*** ACTION NAME:(Monitor FRA Space) 2022-10-15 22:09:07.704
+ 
+ktsmgtur(): TUR was not tuned for 1566 secs
+ktsmg_advance_slot(): MMNL advances slot after 2156 seconds

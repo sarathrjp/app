@@ -1,0 +1,3123 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_vktm_2380.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:6063M/16167M, Ph+PgF:9340M/24871M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 3
+Windows thread id: 2380, image: ORACLE.EXE (VKTM)
+
+
+*** 2022-10-13 08:47:10.212
+*** SESSION ID:(94.1) 2022-10-13 08:47:10.212
+*** CLIENT ID:() 2022-10-13 08:47:10.212
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-13 08:47:10.212
+*** MODULE NAME:() 2022-10-13 08:47:10.212
+*** ACTION NAME:() 2022-10-13 08:47:10.212
+ 
+
+*** TRACE FILE RECREATED AFTER BEING REMOVED ***
+
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (307992477)microsecs at 167056515103
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (308000000)microsecs at 1665631030
+
+*** 2022-10-13 08:53:42.180
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (390942084)microsecs at 167448494796
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (391000000)microsecs at 1665631422
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44289662)microsecs at 167804106009
+
+*** 2022-10-13 08:59:37.794
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (45000000)microsecs at 1665631777
+
+*** 2022-10-13 09:04:08.600
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (269761349)microsecs at 168074914794
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (270000000)microsecs at 1665632048
+
+*** 2022-10-13 09:08:14.985
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (246171911)microsecs at 168321300205
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (246000000)microsecs at 1665632294
+
+*** 2022-10-13 09:19:25.590
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (670603760)microsecs at 168991903981
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (671000000)microsecs at 1665632965
+
+*** 2022-10-13 11:28:45.772
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (7759372523)microsecs at 176752085955
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (3465032704)microsecs at 1665640725
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1554891851)microsecs at 178308002257
+
+*** 2022-10-13 11:54:41.690
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (1555000000)microsecs at 1665642281
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4290312881)microsecs at 182619282179
+
+*** 2022-10-13 13:06:32.968
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (4291000000)microsecs at 1665646592
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (7648938)microsecs at 182630307995
+
+*** 2022-10-13 13:06:43.995
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (7000000)microsecs at 1665646603
+
+*** 2022-10-13 13:06:55.060
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11033737)microsecs at 182641373758
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (12000000)microsecs at 1665646615
+
+*** 2022-10-13 13:07:06.103
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11027480)microsecs at 182652417310
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665646659
+
+*** 2022-10-13 13:08:01.400
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55296620)microsecs at 182707713931
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665646714
+
+*** 2022-10-13 13:08:45.629
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44228807)microsecs at 182751942739
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665646725
+
+*** 2022-10-13 13:08:56.669
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11024871)microsecs at 182762983698
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665646769
+
+*** 2022-10-13 13:09:51.966
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55296167)microsecs at 182818279867
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665646825
+
+*** 2022-10-13 13:10:25.137
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33171538)microsecs at 182851451406
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 2673036352
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11024450)microsecs at 182862492072
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665646858
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665646858
+
+*** 2022-10-13 13:11:42.526
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66348371)microsecs at 182928840445
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (77000000)microsecs at 1665646935
+
+*** 2022-10-13 13:12:37.806
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279943)microsecs at 182984120389
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665646990
+
+*** 2022-10-13 13:13:33.092
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55285815)microsecs at 183039406206
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665647046
+
+*** 2022-10-13 13:14:28.358
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55265749)microsecs at 183094671974
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647101
+
+*** 2022-10-13 13:15:23.635
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277735)microsecs at 183149949711
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647156
+
+*** 2022-10-13 13:16:18.914
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278711)microsecs at 183205228423
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665647212
+
+*** 2022-10-13 13:17:14.189
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274815)microsecs at 183260503251
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647267
+
+*** 2022-10-13 13:18:09.466
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277222)microsecs at 183315780474
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647322
+
+*** 2022-10-13 13:19:04.748
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281352)microsecs at 183371061827
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647377
+
+*** 2022-10-13 13:20:00.019
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271641)microsecs at 183426333469
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665647433
+
+*** 2022-10-13 13:20:55.287
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55268092)microsecs at 183481601562
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647488
+
+*** 2022-10-13 13:21:50.574
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55286551)microsecs at 183536888114
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647543
+
+*** 2022-10-13 13:22:45.853
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278955)microsecs at 183592167071
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647598
+
+*** 2022-10-13 13:23:30.066
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44212958)microsecs at 183636380030
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (12000000)microsecs at 1665647610
+
+*** 2022-10-13 13:23:41.108
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11026394)microsecs at 183647422505
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665647654
+
+*** 2022-10-13 13:24:36.394
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55285744)microsecs at 183702708250
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647709
+
+*** 2022-10-13 13:25:31.677
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282962)microsecs at 183757991214
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647764
+
+*** 2022-10-13 13:26:26.951
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273698)microsecs at 183813264913
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665647820
+
+*** 2022-10-13 13:27:22.222
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271576)microsecs at 183868536490
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647875
+
+*** 2022-10-13 13:28:17.497
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275162)microsecs at 183923811654
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647930
+
+*** 2022-10-13 13:29:12.774
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276226)microsecs at 183979087881
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665647985
+
+*** 2022-10-13 13:30:08.058
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55284325)microsecs at 184034372207
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665648041
+
+*** 2022-10-13 13:31:03.338
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280244)microsecs at 184089652452
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648096
+
+*** 2022-10-13 13:31:58.604
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55266029)microsecs at 184144918482
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648151
+
+*** 2022-10-13 13:32:53.890
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55285792)microsecs at 184200204276
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665648207
+
+*** 2022-10-13 13:33:49.169
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278595)microsecs at 184255482872
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648262
+
+*** 2022-10-13 13:34:44.449
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279919)microsecs at 184310762792
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648317
+
+*** 2022-10-13 13:35:39.720
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271038)microsecs at 184366033831
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648372
+
+*** 2022-10-13 13:36:34.989
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269516)microsecs at 184421303348
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665648428
+
+*** 2022-10-13 13:37:30.264
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275219)microsecs at 184476578568
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648483
+
+*** 2022-10-13 13:38:25.546
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281838)microsecs at 184531860407
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648538
+
+*** 2022-10-13 13:39:09.770
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44224017)microsecs at 184576084425
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665648549
+
+*** 2022-10-13 13:39:20.820
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11019036)microsecs at 184587134721
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665648593
+
+*** 2022-10-13 13:39:54.003
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33182124)microsecs at 184620316847
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (23000000)microsecs at 1665648616
+
+*** 2022-10-13 13:40:38.227
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44224625)microsecs at 184664541474
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648671
+
+*** 2022-10-13 13:41:33.499
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271462)microsecs at 184719812937
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648726
+
+*** 2022-10-13 13:42:28.778
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278906)microsecs at 184775091844
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648781
+
+*** 2022-10-13 13:43:24.055
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277438)microsecs at 184830369284
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665648837
+
+*** 2022-10-13 13:44:19.336
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280787)microsecs at 184885650073
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648892
+
+*** 2022-10-13 13:45:14.605
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269485)microsecs at 184940919559
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665648947
+
+*** 2022-10-13 13:46:09.878
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272192)microsecs at 184996191753
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665649003
+
+*** 2022-10-13 13:47:05.144
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55266700)microsecs at 185051458456
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649058
+
+*** 2022-10-13 13:48:00.412
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55268064)microsecs at 185106726521
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649113
+
+*** 2022-10-13 13:48:55.685
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272916)microsecs at 185161999438
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649168
+
+*** 2022-10-13 13:49:50.960
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274963)microsecs at 185217274402
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665649224
+
+*** 2022-10-13 13:50:24.125
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33164371)microsecs at 185250438774
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665649235
+
+*** 2022-10-13 13:50:35.179
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11054047)microsecs at 185261492822
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665649257
+
+*** 2022-10-13 13:51:19.397
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44218829)microsecs at 185305711652
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649312
+
+*** 2022-10-13 13:52:14.669
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271427)microsecs at 185360983080
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649367
+
+*** 2022-10-13 13:53:09.945
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276382)microsecs at 185416259464
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665649423
+
+*** 2022-10-13 13:54:05.228
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282787)microsecs at 185471542252
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649478
+
+*** 2022-10-13 13:54:49.446
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44218118)microsecs at 185515760371
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665649489
+
+*** 2022-10-13 13:55:00.485
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11022985)microsecs at 185526799433
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665649511
+
+*** 2022-10-13 13:55:11.555
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11069711)microsecs at 185537869146
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1064069056
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11022067)microsecs at 185548907226
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665649544
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665649544
+
+*** 2022-10-13 13:56:28.934
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66340656)microsecs at 185615247884
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (78000000)microsecs at 1665649622
+
+*** 2022-10-13 13:57:24.200
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55266293)microsecs at 185670514178
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649677
+
+*** 2022-10-13 13:58:19.477
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277522)microsecs at 185725791701
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649732
+
+*** 2022-10-13 13:59:14.759
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281304)microsecs at 185781073006
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649787
+
+*** 2022-10-13 14:00:10.039
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280561)microsecs at 185836353569
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665649843
+
+*** 2022-10-13 14:01:05.313
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273596)microsecs at 185891627167
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649898
+
+*** 2022-10-13 14:02:00.588
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275388)microsecs at 185946902556
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665649953
+
+*** 2022-10-13 14:02:33.746
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33158075)microsecs at 185980060632
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665649964
+
+*** 2022-10-13 14:02:44.801
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11054756)microsecs at 185991115389
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665649986
+
+*** 2022-10-13 14:03:29.020
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44219100)microsecs at 186035334490
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665650042
+
+*** 2022-10-13 14:04:24.289
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55268946)microsecs at 186090603437
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650097
+
+*** 2022-10-13 14:05:19.559
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269330)microsecs at 186145872768
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650152
+
+*** 2022-10-13 14:06:14.837
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278726)microsecs at 186201151495
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650207
+
+*** 2022-10-13 14:07:10.109
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271537)microsecs at 186256423033
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665650263
+
+*** 2022-10-13 14:08:05.380
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271377)microsecs at 186311694414
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650318
+
+*** 2022-10-13 14:09:00.672
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55291484)microsecs at 186366985899
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650373
+
+*** 2022-10-13 14:09:55.944
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272371)microsecs at 186422258271
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665650429
+
+*** 2022-10-13 14:10:40.168
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44223464)microsecs at 186466481737
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665650440
+
+*** 2022-10-13 14:10:51.234
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11035114)microsecs at 186477548111
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665650484
+
+*** 2022-10-13 14:11:46.506
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272448)microsecs at 186532820560
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650539
+
+*** 2022-10-13 14:12:41.783
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277125)microsecs at 186588097686
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650594
+
+*** 2022-10-13 14:13:37.061
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277128)microsecs at 186643374815
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665650650
+
+*** 2022-10-13 14:14:32.341
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280406)microsecs at 186698655223
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650705
+
+*** 2022-10-13 14:15:27.623
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281908)microsecs at 186753937133
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650760
+
+*** 2022-10-13 14:16:22.912
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55288621)microsecs at 186809225755
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665650816
+
+*** 2022-10-13 14:17:18.190
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278798)microsecs at 186864504555
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650871
+
+*** 2022-10-13 14:18:13.469
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278410)microsecs at 186919782967
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650926
+
+*** 2022-10-13 14:19:08.744
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274825)microsecs at 186975057793
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665650981
+
+*** 2022-10-13 14:20:04.008
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55264360)microsecs at 187030322154
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665651037
+
+*** 2022-10-13 14:20:59.277
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269340)microsecs at 187085591495
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665651092
+
+*** 2022-10-13 14:21:54.553
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275861)microsecs at 187140867359
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665651147
+
+*** 2022-10-13 14:22:49.829
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275807)microsecs at 187196143168
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665651202
+
+*** 2022-10-13 14:23:45.109
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280455)microsecs at 187251423624
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665651258
+
+*** 2022-10-13 14:24:40.385
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276010)microsecs at 187306699635
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665651313
+
+*** 2022-10-13 14:25:35.661
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275952)microsecs at 187361975589
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665651368
+
+*** 2022-10-13 14:26:19.882
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44221064)microsecs at 187406196654
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665651379
+
+*** 2022-10-13 14:26:30.924
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025146)microsecs at 187417237892
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (45000000)microsecs at 1665651424
+
+*** 2022-10-13 14:27:26.216
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55291907)microsecs at 187472529802
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665651479
+
+*** 2022-10-13 14:28:21.500
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55284653)microsecs at 187527814457
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665651534
+
+*** 2022-10-13 14:29:16.788
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55288136)microsecs at 187583102597
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665651589
+
+*** 2022-10-13 14:30:12.060
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271739)microsecs at 187638374337
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665651645
+
+*** 2022-10-13 14:31:07.335
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275000)microsecs at 187693649338
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665651700
+
+*** 2022-10-13 14:31:40.500
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33164999)microsecs at 187726814349
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665651711
+
+*** 2022-10-13 14:31:51.553
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11052989)microsecs at 187737867339
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665651733
+
+*** 2022-10-13 14:32:35.772
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44218475)microsecs at 187782085815
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665651788
+
+*** 2022-10-13 14:33:31.041
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269133)microsecs at 187837354949
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665651844
+
+*** 2022-10-13 14:34:26.315
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274464)microsecs at 187892629414
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665651888
+
+*** 2022-10-13 14:34:48.408
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (22093029)microsecs at 187914722444
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 3441069056
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11023699)microsecs at 187925778204
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665651921
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665651921
+
+*** 2022-10-13 14:36:05.805
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66341486)microsecs at 187992119691
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (77000000)microsecs at 1665651998
+
+*** 2022-10-13 14:37:01.100
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55294476)microsecs at 188047414169
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665652054
+
+*** 2022-10-13 14:37:56.377
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277361)microsecs at 188102691531
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665652109
+
+*** 2022-10-13 14:38:51.662
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55284515)microsecs at 188157976047
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665652164
+
+*** 2022-10-13 14:39:46.942
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280423)microsecs at 188213256471
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665652220
+
+*** 2022-10-13 14:40:42.224
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282202)microsecs at 188268538675
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665652275
+
+*** 2022-10-13 14:41:26.451
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44226784)microsecs at 188312765460
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665652286
+
+*** 2022-10-13 14:41:37.491
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11024720)microsecs at 188323805415
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665652330
+
+*** 2022-10-13 14:42:32.784
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55292445)microsecs at 188379097861
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665652385
+
+*** 2022-10-13 14:43:28.064
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280484)microsecs at 188434378346
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665652441
+
+*** 2022-10-13 14:44:23.339
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274884)microsecs at 188489653232
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665652496
+
+*** 2022-10-13 14:45:18.620
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281444)microsecs at 188544934677
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665652551
+
+*** 2022-10-13 14:46:13.900
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279858)microsecs at 188600214537
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665652607
+
+*** 2022-10-13 14:47:09.179
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278245)microsecs at 188655492784
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665652662
+
+*** 2022-10-13 14:48:04.449
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270496)microsecs at 188710763281
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665652717
+
+*** 2022-10-13 14:48:59.722
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272981)microsecs at 188766036263
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665652772
+
+*** 2022-10-13 14:49:55.000
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278393)microsecs at 188821314656
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665652806
+
+*** 2022-10-13 14:50:06.056
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11055305)microsecs at 188832369962
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 64101760
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11037866)microsecs at 188843423857
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665652839
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665652839
+
+*** 2022-10-13 14:50:50.272
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33162839)microsecs at 188876586698
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665652850
+
+*** 2022-10-13 14:51:01.314
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025405)microsecs at 188887628215
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665652883
+
+*** 2022-10-13 14:51:34.495
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33181082)microsecs at 188920809299
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665652894
+
+*** 2022-10-13 14:51:45.535
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11024667)microsecs at 188931849197
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665652927
+
+*** 2022-10-13 14:52:29.775
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44240314)microsecs at 188976089512
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665652982
+
+*** 2022-10-13 14:53:25.054
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279094)microsecs at 189031368607
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665653038
+
+*** 2022-10-13 14:54:20.337
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282134)microsecs at 189086650742
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653093
+
+*** 2022-10-13 14:55:15.618
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281313)microsecs at 189141932056
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653148
+
+*** 2022-10-13 14:56:10.898
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280125)microsecs at 189197212183
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665653204
+
+*** 2022-10-13 14:56:55.129
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44230692)microsecs at 189241442879
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665653215
+
+*** 2022-10-13 14:57:06.165
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11021263)microsecs at 189252479574
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665653259
+
+*** 2022-10-13 14:58:01.459
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55293998)microsecs at 189307773574
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653314
+
+*** 2022-10-13 14:58:56.737
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277372)microsecs at 189363050948
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653369
+
+*** 2022-10-13 14:59:52.019
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282682)microsecs at 189418333631
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665653425
+
+*** 2022-10-13 15:00:47.304
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55284145)microsecs at 189473617789
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653480
+
+*** 2022-10-13 15:01:42.585
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281892)microsecs at 189528899682
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653535
+
+*** 2022-10-13 15:02:37.860
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274780)microsecs at 189584174463
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665653557
+
+*** 2022-10-13 15:02:48.913
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11036357)microsecs at 189595227616
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665653591
+
+*** 2022-10-13 15:03:33.139
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44225703)microsecs at 189639453320
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653646
+
+*** 2022-10-13 15:04:28.416
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276902)microsecs at 189694730224
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653701
+
+*** 2022-10-13 15:05:23.705
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55289407)microsecs at 189750019636
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653756
+
+*** 2022-10-13 15:06:18.981
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275331)microsecs at 189805294969
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665653812
+
+*** 2022-10-13 15:07:14.267
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55286193)microsecs at 189860581164
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653867
+
+*** 2022-10-13 15:08:09.558
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55290989)microsecs at 189915872155
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653922
+
+*** 2022-10-13 15:09:04.840
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281645)microsecs at 189971153801
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665653977
+
+*** 2022-10-13 15:10:00.118
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278826)microsecs at 190026432628
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665654033
+
+*** 2022-10-13 15:10:55.402
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283726)microsecs at 190081716355
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654088
+
+*** 2022-10-13 15:11:50.681
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278792)microsecs at 190136995147
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654143
+
+*** 2022-10-13 15:12:34.898
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44216806)microsecs at 190181211954
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665654154
+
+*** 2022-10-13 15:12:45.935
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11022404)microsecs at 190192249419
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (45000000)microsecs at 1665654199
+
+*** 2022-10-13 15:13:41.234
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55299177)microsecs at 190247548597
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654254
+
+*** 2022-10-13 15:14:36.525
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55290854)microsecs at 190302839453
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654309
+
+*** 2022-10-13 15:15:31.803
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277310)microsecs at 190358116764
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654364
+
+*** 2022-10-13 15:16:27.082
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279005)microsecs at 190413395770
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665654420
+
+*** 2022-10-13 15:17:22.353
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271778)microsecs at 190468667551
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654475
+
+*** 2022-10-13 15:18:17.632
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278905)microsecs at 190523946457
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654530
+
+*** 2022-10-13 15:19:12.914
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281264)microsecs at 190579227723
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665654586
+
+*** 2022-10-13 15:20:08.194
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280879)microsecs at 190634508603
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654641
+
+*** 2022-10-13 15:21:03.466
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271782)microsecs at 190689780390
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654696
+
+*** 2022-10-13 15:21:58.734
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267960)microsecs at 190745048351
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654751
+
+*** 2022-10-13 15:22:54.006
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271442)microsecs at 190800319794
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665654807
+
+*** 2022-10-13 15:23:49.295
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55288934)microsecs at 190855608730
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654862
+
+*** 2022-10-13 15:24:22.466
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33171761)microsecs at 190888780492
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665654873
+
+*** 2022-10-13 15:24:33.525
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11058236)microsecs at 190899838729
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665654895
+
+*** 2022-10-13 15:25:17.747
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44222149)microsecs at 190944060879
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665654950
+
+*** 2022-10-13 15:26:13.022
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275281)microsecs at 190999336160
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665655006
+
+*** 2022-10-13 15:27:08.311
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55289395)microsecs at 191054625556
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655061
+
+*** 2022-10-13 15:27:52.530
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44219121)microsecs at 191098844678
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665655072
+
+*** 2022-10-13 15:28:03.583
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11035876)microsecs at 191109897666
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665655116
+
+*** 2022-10-13 15:28:58.861
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277104)microsecs at 191165174771
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665655172
+
+*** 2022-10-13 15:29:54.143
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282017)microsecs at 191220456789
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655227
+
+*** 2022-10-13 15:30:49.416
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273433)microsecs at 191275730224
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655282
+
+*** 2022-10-13 15:31:44.697
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280891)microsecs at 191331011116
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655337
+
+*** 2022-10-13 15:32:39.974
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277296)microsecs at 191386288413
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665655371
+
+*** 2022-10-13 15:32:51.036
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11061441)microsecs at 191397349865
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 2629101760
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11026459)microsecs at 191408392416
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665655393
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665655393
+
+*** 2022-10-13 15:33:13.152
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11073696)microsecs at 191419466113
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 2651101760
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11024583)microsecs at 191430506960
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665655404
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665655404
+
+*** 2022-10-13 15:33:35.260
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11034048)microsecs at 191441574199
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665655448
+
+*** 2022-10-13 15:34:30.536
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275605)microsecs at 191496849805
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655503
+
+*** 2022-10-13 15:35:25.811
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275083)microsecs at 191552124890
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655558
+
+*** 2022-10-13 15:36:21.083
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272056)microsecs at 191607396947
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665655614
+
+*** 2022-10-13 15:37:16.356
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273260)microsecs at 191662670208
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655669
+
+*** 2022-10-13 15:38:11.635
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278761)microsecs at 191717948970
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655724
+
+*** 2022-10-13 15:39:06.914
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279022)microsecs at 191773227994
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665655780
+
+*** 2022-10-13 15:40:02.192
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278183)microsecs at 191828506179
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655835
+
+*** 2022-10-13 15:40:57.480
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55288291)microsecs at 191883794482
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655890
+
+*** 2022-10-13 15:41:52.761
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281197)microsecs at 191939075681
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665655945
+
+*** 2022-10-13 15:42:48.036
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274817)microsecs at 191994350499
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665656001
+
+*** 2022-10-13 15:43:32.262
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44225973)microsecs at 192038576474
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665656012
+
+*** 2022-10-13 15:43:43.304
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025574)microsecs at 192049618114
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665656056
+
+*** 2022-10-13 15:44:38.594
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55289692)microsecs at 192104907807
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665656111
+
+*** 2022-10-13 15:45:33.875
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281268)microsecs at 192160189076
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665656167
+
+*** 2022-10-13 15:46:29.159
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55284188)microsecs at 192215473265
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665656222
+
+*** 2022-10-13 15:47:24.442
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282771)microsecs at 192270756037
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665656255
+
+*** 2022-10-13 15:47:35.502
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11059931)microsecs at 192281815970
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 3513101760
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11036026)microsecs at 192292870447
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665656288
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665656288
+
+*** 2022-10-13 15:48:52.886
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66329404)microsecs at 192359199852
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (78000000)microsecs at 1665656366
+
+*** 2022-10-13 15:49:48.164
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278552)microsecs at 192414478405
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665656421
+
+*** 2022-10-13 15:50:32.384
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44219847)microsecs at 192458698254
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665656432
+
+*** 2022-10-13 15:50:43.425
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11024887)microsecs at 192469739221
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665656465
+
+*** 2022-10-13 15:51:27.661
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44236023)microsecs at 192513975245
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665656520
+
+*** 2022-10-13 15:52:22.945
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283727)microsecs at 192569258973
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665656576
+
+*** 2022-10-13 15:53:18.224
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279128)microsecs at 192624538103
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665656631
+
+*** 2022-10-13 15:54:13.505
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280783)microsecs at 192679818887
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665656686
+
+*** 2022-10-13 15:55:08.778
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273512)microsecs at 192735092401
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665656741
+
+*** 2022-10-13 15:56:04.055
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276322)microsecs at 192790368725
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665656797
+
+*** 2022-10-13 15:56:59.339
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55284959)microsecs at 192845653686
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665656852
+
+*** 2022-10-13 15:57:54.617
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277858)microsecs at 192900931545
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665656907
+
+*** 2022-10-13 15:58:38.838
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44221065)microsecs at 192945152611
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665656918
+
+*** 2022-10-13 15:58:49.880
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025357)microsecs at 192956194066
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (45000000)microsecs at 1665656963
+
+*** 2022-10-13 15:59:45.173
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55292882)microsecs at 193011486950
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657018
+
+*** 2022-10-13 16:00:40.446
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273205)microsecs at 193066760158
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657073
+
+*** 2022-10-13 16:01:35.720
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273936)microsecs at 193122034095
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657128
+
+*** 2022-10-13 16:02:30.997
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277207)microsecs at 193177311303
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665657184
+
+*** 2022-10-13 16:03:26.278
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280969)microsecs at 193232592274
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657239
+
+*** 2022-10-13 16:04:21.555
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277095)microsecs at 193287869370
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657294
+
+*** 2022-10-13 16:05:16.837
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281634)microsecs at 193343151006
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657349
+
+*** 2022-10-13 16:06:12.111
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274461)microsecs at 193398425469
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665657405
+
+*** 2022-10-13 16:07:07.386
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274554)microsecs at 193453700024
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657460
+
+*** 2022-10-13 16:08:02.662
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276471)microsecs at 193508976496
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657515
+
+*** 2022-10-13 16:08:57.943
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280905)microsecs at 193564257402
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665657571
+
+*** 2022-10-13 16:09:53.222
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278574)microsecs at 193619535977
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657626
+
+*** 2022-10-13 16:10:48.502
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280214)microsecs at 193674816192
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657681
+
+*** 2022-10-13 16:11:43.782
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280176)microsecs at 193730096372
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657736
+
+*** 2022-10-13 16:12:39.059
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277274)microsecs at 193785373648
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665657792
+
+*** 2022-10-13 16:13:34.341
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281995)microsecs at 193840655645
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665657847
+
+*** 2022-10-13 16:14:18.563
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44221675)microsecs at 193884877321
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665657858
+
+*** 2022-10-13 16:14:29.605
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11026296)microsecs at 193895919694
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665657902
+
+*** 2022-10-13 16:15:24.903
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55297915)microsecs at 193951217610
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665657958
+
+*** 2022-10-13 16:16:20.185
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281176)microsecs at 194006498788
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658013
+
+*** 2022-10-13 16:17:15.463
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278095)microsecs at 194061776884
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658068
+
+*** 2022-10-13 16:18:10.744
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280915)microsecs at 194117057801
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658123
+
+*** 2022-10-13 16:19:06.020
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276889)microsecs at 194172334691
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665658179
+
+*** 2022-10-13 16:20:01.292
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272024)microsecs at 194227606716
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658234
+
+*** 2022-10-13 16:20:56.563
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270486)microsecs at 194282877203
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658289
+
+*** 2022-10-13 16:21:51.837
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273810)microsecs at 194338151014
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658344
+
+*** 2022-10-13 16:22:47.118
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281362)microsecs at 194393432377
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665658400
+
+*** 2022-10-13 16:23:42.395
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276430)microsecs at 194448708809
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658455
+
+*** 2022-10-13 16:24:37.682
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55287204)microsecs at 194503996014
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658510
+
+*** 2022-10-13 16:25:32.972
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55290533)microsecs at 194559286549
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665658566
+
+*** 2022-10-13 16:26:17.198
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44225632)microsecs at 194603512185
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665658577
+
+*** 2022-10-13 16:26:28.239
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11024532)microsecs at 194614552920
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665658610
+
+*** 2022-10-13 16:27:12.487
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44247961)microsecs at 194658800882
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658665
+
+*** 2022-10-13 16:28:07.766
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278920)microsecs at 194714079803
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658720
+
+*** 2022-10-13 16:29:03.041
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275081)microsecs at 194769354885
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665658776
+
+*** 2022-10-13 16:29:47.264
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44223399)microsecs at 194813578286
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665658787
+
+*** 2022-10-13 16:29:58.304
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11023303)microsecs at 194824617761
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665658831
+
+*** 2022-10-13 16:30:53.599
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55295094)microsecs at 194879912856
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658886
+
+*** 2022-10-13 16:31:48.874
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275807)microsecs at 194935188664
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665658942
+
+*** 2022-10-13 16:32:44.160
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55285284)microsecs at 194990473949
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665658997
+
+*** 2022-10-13 16:33:39.440
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280107)microsecs at 195045754057
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659052
+
+*** 2022-10-13 16:34:34.712
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272595)microsecs at 195101026653
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659107
+
+*** 2022-10-13 16:35:29.990
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277142)microsecs at 195156303796
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665659163
+
+*** 2022-10-13 16:36:25.268
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277958)microsecs at 195211581754
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659218
+
+*** 2022-10-13 16:37:20.535
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267062)microsecs at 195266848818
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659273
+
+*** 2022-10-13 16:38:15.808
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273448)microsecs at 195322122267
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659328
+
+*** 2022-10-13 16:39:11.082
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273990)microsecs at 195377396258
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665659384
+
+*** 2022-10-13 16:40:06.367
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55284806)microsecs at 195432681066
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659439
+
+*** 2022-10-13 16:41:01.645
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277763)microsecs at 195487958830
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659494
+
+*** 2022-10-13 16:41:45.864
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44219159)microsecs at 195532177990
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665659505
+
+*** 2022-10-13 16:41:56.906
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11026241)microsecs at 195543220313
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665659539
+
+*** 2022-10-13 16:42:41.140
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44234397)microsecs at 195587454712
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659594
+
+*** 2022-10-13 16:43:36.412
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271444)microsecs at 195642726159
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659649
+
+*** 2022-10-13 16:44:31.688
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276069)microsecs at 195698002229
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659704
+
+*** 2022-10-13 16:45:15.910
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44222089)microsecs at 195742224320
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665659715
+
+*** 2022-10-13 16:45:26.950
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11021156)microsecs at 195753264182
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (45000000)microsecs at 1665659760
+
+*** 2022-10-13 16:46:22.240
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55290316)microsecs at 195808554500
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659815
+
+*** 2022-10-13 16:47:17.523
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282390)microsecs at 195863836892
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659870
+
+*** 2022-10-13 16:48:12.798
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275616)microsecs at 195919112512
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665659925
+
+*** 2022-10-13 16:49:08.085
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55287090)microsecs at 195974399603
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665659981
+
+*** 2022-10-13 16:50:03.364
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279062)microsecs at 196029678667
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660036
+
+*** 2022-10-13 16:50:58.651
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55286094)microsecs at 196084964763
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660091
+
+*** 2022-10-13 16:51:53.933
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282087)microsecs at 196140246852
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665660147
+
+*** 2022-10-13 16:52:49.211
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277915)microsecs at 196195524768
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660202
+
+*** 2022-10-13 16:53:44.485
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274879)microsecs at 196250799648
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660257
+
+*** 2022-10-13 16:54:39.761
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275095)microsecs at 196306074744
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660312
+
+*** 2022-10-13 16:55:35.043
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282634)microsecs at 196361357379
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665660368
+
+*** 2022-10-13 16:56:30.322
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278895)microsecs at 196416636275
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660423
+
+*** 2022-10-13 16:57:25.600
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278128)microsecs at 196471914404
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660478
+
+*** 2022-10-13 16:58:20.872
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271990)microsecs at 196527186396
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665660534
+
+*** 2022-10-13 16:59:16.153
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281225)microsecs at 196582467631
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660589
+
+*** 2022-10-13 17:00:11.431
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277157)microsecs at 196637744790
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660644
+
+*** 2022-10-13 17:00:55.658
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44227384)microsecs at 196681972177
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665660655
+
+*** 2022-10-13 17:01:06.711
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11036423)microsecs at 196693025428
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665660699
+
+*** 2022-10-13 17:02:01.992
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280995)microsecs at 196748306424
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665660755
+
+*** 2022-10-13 17:02:57.276
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283947)microsecs at 196803590372
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660810
+
+*** 2022-10-13 17:03:52.557
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280734)microsecs at 196858871107
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660865
+
+*** 2022-10-13 17:04:47.840
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282673)microsecs at 196914153781
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665660920
+
+*** 2022-10-13 17:05:43.120
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280642)microsecs at 196969434427
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665660976
+
+*** 2022-10-13 17:06:38.400
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279618)microsecs at 197024714046
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661031
+
+*** 2022-10-13 17:07:33.679
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279024)microsecs at 197079993071
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661086
+
+*** 2022-10-13 17:08:28.951
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272340)microsecs at 197135265412
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665661142
+
+*** 2022-10-13 17:09:24.237
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55285741)microsecs at 197190551156
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661197
+
+*** 2022-10-13 17:10:19.516
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278882)microsecs at 197245830040
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661252
+
+*** 2022-10-13 17:11:14.793
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276957)microsecs at 197301106999
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661307
+
+*** 2022-10-13 17:12:10.077
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55284552)microsecs at 197356391554
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665661363
+
+*** 2022-10-13 17:13:05.353
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275428)microsecs at 197411666983
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661418
+
+*** 2022-10-13 17:14:00.620
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267081)microsecs at 197466934066
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661473
+
+*** 2022-10-13 17:14:55.912
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55292223)microsecs at 197522226290
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665661529
+
+*** 2022-10-13 17:15:51.189
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276923)microsecs at 197577503214
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661584
+
+*** 2022-10-13 17:16:35.414
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44224862)microsecs at 197621728077
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665661595
+
+*** 2022-10-13 17:16:46.452
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11022780)microsecs at 197632766887
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665661628
+
+*** 2022-10-13 17:17:08.583
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (22130416)microsecs at 197654897304
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 296167168
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11023267)microsecs at 197665936678
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665661661
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665661661
+
+*** 2022-10-13 17:18:25.970
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66347824)microsecs at 197732284503
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (78000000)microsecs at 1665661739
+
+*** 2022-10-13 17:19:21.251
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280341)microsecs at 197787564845
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661794
+
+*** 2022-10-13 17:20:16.522
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271864)microsecs at 197842836711
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661849
+
+*** 2022-10-13 17:21:11.789
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55266416)microsecs at 197898103129
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665661904
+
+*** 2022-10-13 17:22:07.063
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274455)microsecs at 197953377585
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665661960
+
+*** 2022-10-13 17:23:02.353
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55289269)microsecs at 198008666855
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662015
+
+*** 2022-10-13 17:23:57.629
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276513)microsecs at 198063943369
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662070
+
+*** 2022-10-13 17:24:52.912
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282565)microsecs at 198119225935
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665662126
+
+*** 2022-10-13 17:25:48.176
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55263911)microsecs at 198174489849
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662181
+
+*** 2022-10-13 17:26:43.470
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55293891)microsecs at 198229783741
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662236
+
+*** 2022-10-13 17:27:38.754
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55284037)microsecs at 198285067779
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662291
+
+*** 2022-10-13 17:28:34.029
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275186)microsecs at 198340342967
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665662347
+
+*** 2022-10-13 17:29:29.310
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281263)microsecs at 198395624231
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662402
+
+*** 2022-10-13 17:30:02.469
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33159391)microsecs at 198428783625
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665662413
+
+*** 2022-10-13 17:30:13.523
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11053928)microsecs at 198439837554
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665662435
+
+*** 2022-10-13 17:30:57.753
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44229547)microsecs at 198484067107
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662490
+
+*** 2022-10-13 17:31:41.975
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44221943)microsecs at 198528289053
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665662501
+
+*** 2022-10-13 17:31:53.013
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11023535)microsecs at 198539327834
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (45000000)microsecs at 1665662546
+
+*** 2022-10-13 17:32:48.313
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55299542)microsecs at 198594627377
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662601
+
+*** 2022-10-13 17:33:43.591
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277447)microsecs at 198649904826
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662656
+
+*** 2022-10-13 17:34:38.865
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274345)microsecs at 198705179173
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665662712
+
+*** 2022-10-13 17:35:34.151
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55285734)microsecs at 198760464908
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662767
+
+*** 2022-10-13 17:36:29.427
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276175)microsecs at 198815741084
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662822
+
+*** 2022-10-13 17:37:24.706
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278941)microsecs at 198871020026
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662877
+
+*** 2022-10-13 17:38:19.982
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276266)microsecs at 198926296293
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665662933
+
+*** 2022-10-13 17:39:15.268
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55286316)microsecs at 198981582610
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665662988
+
+*** 2022-10-13 17:40:10.544
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275482)microsecs at 199036858093
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665663043
+
+*** 2022-10-13 17:41:05.821
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277403)microsecs at 199092135497
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665663098
+
+*** 2022-10-13 17:42:01.111
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55290167)microsecs at 199147425665
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665663132
+
+*** 2022-10-13 17:42:12.165
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11053629)microsecs at 199158479295
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1800167168
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11023001)microsecs at 199169518547
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665663165
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665663165
+
+*** 2022-10-13 17:43:29.555
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66350478)microsecs at 199235869027
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (77000000)microsecs at 1665663242
+
+*** 2022-10-13 17:44:24.834
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278761)microsecs at 199291147790
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665663286
+
+*** 2022-10-13 17:44:46.944
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (22110398)microsecs at 199313258189
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1954167168
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025104)microsecs at 199324299337
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665663320
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665663320
+
+*** 2022-10-13 17:46:04.339
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66353759)microsecs at 199390653098
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (77000000)microsecs at 1665663397
+
+*** 2022-10-13 17:46:37.507
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33168043)microsecs at 199423821142
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665663408
+
+*** 2022-10-13 17:47:10.678
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33171520)microsecs at 199456992664
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665663430
+
+*** 2022-10-13 17:47:21.718
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11023718)microsecs at 199468032457
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665663474
+
+*** 2022-10-13 17:48:17.017
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55298971)microsecs at 199523331430
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665663530
+
+*** 2022-10-13 17:49:12.296
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278294)microsecs at 199578609727
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665663585
+
+*** 2022-10-13 17:50:07.576
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280885)microsecs at 199633890614
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665663640
+
+*** 2022-10-13 17:51:02.860
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283939)microsecs at 199689174555
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665663696
+
+*** 2022-10-13 17:51:58.136
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276049)microsecs at 199744450606
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665663751
+
+*** 2022-10-13 17:52:53.420
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283288)microsecs at 199799733895
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665663806
+
+*** 2022-10-13 17:53:48.710
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55290267)microsecs at 199855024163
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665663861
+
+*** 2022-10-13 17:54:43.990
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279950)microsecs at 199910304114
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665663917
+
+*** 2022-10-13 17:55:39.264
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273825)microsecs at 199965577940
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665663972
+
+*** 2022-10-13 17:56:34.537
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273353)microsecs at 200020851294
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664027
+
+*** 2022-10-13 17:57:29.800
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55263336)microsecs at 200076114631
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664082
+
+*** 2022-10-13 17:58:25.092
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55291416)microsecs at 200131406049
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665664138
+
+*** 2022-10-13 17:59:20.374
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282662)microsecs at 200186688713
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664193
+
+*** 2022-10-13 18:00:15.656
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281115)microsecs at 200241969829
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664248
+
+*** 2022-10-13 18:01:10.939
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282922)microsecs at 200297252752
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665664304
+
+*** 2022-10-13 18:02:06.222
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283165)microsecs at 200352535919
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664359
+
+*** 2022-10-13 18:02:50.445
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44223574)microsecs at 200396759495
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665664370
+
+*** 2022-10-13 18:03:01.484
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11022125)microsecs at 200407797797
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665664414
+
+*** 2022-10-13 18:03:56.782
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55298585)microsecs at 200463096383
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664469
+
+*** 2022-10-13 18:04:52.063
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280499)microsecs at 200518376883
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665664525
+
+*** 2022-10-13 18:05:47.344
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281695)microsecs at 200573658579
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664580
+
+*** 2022-10-13 18:06:42.628
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283263)microsecs at 200628941843
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664635
+
+*** 2022-10-13 18:07:37.905
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277202)microsecs at 200684219046
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665664657
+
+*** 2022-10-13 18:07:48.946
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025314)microsecs at 200695260446
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665664691
+
+*** 2022-10-13 18:08:33.187
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44240661)microsecs at 200739501109
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664746
+
+*** 2022-10-13 18:09:28.468
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281577)microsecs at 200794782687
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664801
+
+*** 2022-10-13 18:10:23.752
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283421)microsecs at 200850066110
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664856
+
+*** 2022-10-13 18:11:19.027
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275523)microsecs at 200905341635
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665664912
+
+*** 2022-10-13 18:12:14.308
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280915)microsecs at 200960622551
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665664967
+
+*** 2022-10-13 18:13:09.584
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275201)microsecs at 201015897753
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665665022
+
+*** 2022-10-13 18:13:53.803
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44219142)microsecs at 201060116896
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665665033
+
+*** 2022-10-13 18:14:04.843
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11024272)microsecs at 201071157245
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665665066
+
+*** 2022-10-13 18:14:49.080
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44236595)microsecs at 201115393841
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665665122
+
+*** 2022-10-13 18:15:44.356
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276629)microsecs at 201170670471
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665665177
+
+*** 2022-10-13 18:16:39.639
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282391)microsecs at 201225952863
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665665232
+
+*** 2022-10-13 18:17:34.920
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281306)microsecs at 201281234170
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665665288
+
+*** 2022-10-13 18:18:19.141
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44221117)microsecs at 201325455288
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665665299
+
+*** 2022-10-13 18:18:30.182
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11021935)microsecs at 201336495914
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665665343
+
+*** 2022-10-13 18:19:25.470
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55288544)microsecs at 201391784459
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665665398
+
+*** 2022-10-13 18:20:20.747
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276839)microsecs at 201447061300
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665665453
+
+*** 2022-10-13 18:21:16.015
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55268237)microsecs at 201502329539
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665665509
+
+*** 2022-10-13 18:22:11.287
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271231)microsecs at 201557600772
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665665564
+
+*** 2022-10-13 18:23:06.569
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282812)microsecs at 201612883585
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665665619
+
+*** 2022-10-13 18:24:01.850
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280773)microsecs at 201668164359
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665665675
+
+*** 2022-10-13 18:24:57.134
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283727)microsecs at 201723448088
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665665730
+
+*** 2022-10-13 18:25:52.412
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278130)microsecs at 201778726219
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665665785
+
+*** 2022-10-13 18:26:47.684
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272246)microsecs at 201833998466
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665665840
+
+*** 2022-10-13 18:27:42.966
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282210)microsecs at 201889280678
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665665896
+
+*** 2022-10-13 18:28:38.236
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269907)microsecs at 201944550586
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665665918
+
+*** 2022-10-13 18:28:49.278
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025898)microsecs at 201955592562
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665665951
+
+*** 2022-10-13 18:29:33.518
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44239635)microsecs at 201999832198
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666006
+
+*** 2022-10-13 18:30:28.796
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278279)microsecs at 202055110479
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666061
+
+*** 2022-10-13 18:31:24.071
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274371)microsecs at 202110384851
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665666117
+
+*** 2022-10-13 18:32:19.348
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277092)microsecs at 202165661944
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666172
+
+*** 2022-10-13 18:33:03.572
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44223800)microsecs at 202209885745
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665666183
+
+*** 2022-10-13 18:33:14.614
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11026729)microsecs at 202220928047
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665666216
+
+*** 2022-10-13 18:33:58.858
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44244593)microsecs at 202265172641
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665666272
+
+*** 2022-10-13 18:34:54.147
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55288999)microsecs at 202320461642
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666327
+
+*** 2022-10-13 18:35:49.430
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282899)microsecs at 202375744543
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666382
+
+*** 2022-10-13 18:36:44.706
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275287)microsecs at 202431019832
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666437
+
+*** 2022-10-13 18:37:39.988
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282200)microsecs at 202486302034
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665666493
+
+*** 2022-10-13 18:38:35.262
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274606)microsecs at 202541576644
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666548
+
+*** 2022-10-13 18:39:30.535
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272509)microsecs at 202596849157
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666603
+
+*** 2022-10-13 18:40:25.819
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283753)microsecs at 202652132914
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666658
+
+*** 2022-10-13 18:41:21.094
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275683)microsecs at 202707408598
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665666714
+
+*** 2022-10-13 18:42:16.376
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281986)microsecs at 202762690585
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666769
+
+*** 2022-10-13 18:43:11.652
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275447)microsecs at 202817966034
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665666824
+
+*** 2022-10-13 18:44:06.926
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274468)microsecs at 202873240503
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665666880
+
+*** 2022-10-13 18:44:40.166
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33240053)microsecs at 202906480557
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1253199872
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665666881
+
+*** 2022-10-13 18:44:49.731
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4162392)microsecs at 202920059332
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1262199872
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (46670784129)microsecs at 249590843463
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (3721327040)microsecs at 1665713560
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665713560
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (136675370)microsecs at 251261770757
+
+*** 2022-10-14 08:10:31.444
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (137000000)microsecs at 1665715231
+
+*** 2022-10-14 08:13:05.551
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (153056621)microsecs at 251415879648
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (153000000)microsecs at 1665715385
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (167977916)microsecs at 251584903857
+
+*** 2022-10-14 08:15:54.576
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (168000000)microsecs at 1665715554
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5338181)microsecs at 286138746809
+
+*** 2022-10-15 07:08:36.818
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (569359744)microsecs at 1665797916
+
+*** 2022-10-15 07:08:36.829
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (47813669758)microsecs at 333952416569
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 3440180992
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665797917
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (298973272)microsecs at 360779116742
+
+*** 2022-10-15 14:35:43.610
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (299000000)microsecs at 1665824743
+
+*** 2022-10-15 14:36:26.781
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (42111394)microsecs at 360822368249
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (42000000)microsecs at 1665824786
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (345340704)microsecs at 365353847224
+
+*** 2022-10-15 15:51:58.260
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (346000000)microsecs at 1665829318
+
+*** 2022-10-15 15:52:34.346
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (35039810)microsecs at 365389933334
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (35000000)microsecs at 1665829354
+
+*** 2022-10-15 16:05:01.436
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (747089968)microsecs at 366137023303
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (747000000)microsecs at 1665830101
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (288782542)microsecs at 386416919580
+
+*** 2022-10-15 21:43:01.405
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (290000000)microsecs at 1665850381
+
+*** 2022-10-15 22:09:07.159
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1564776201)microsecs at 387982745920
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (1565000000)microsecs at 1665851947
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4672192)microsecs at 390619007635
+
+*** 2022-10-15 22:53:39.828
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (34368378)microsecs at 390655415089
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665854619
+
+*** 2022-10-15 23:22:21.652
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1721776433)microsecs at 392377238811
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (1722000000)microsecs at 1665856341
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (20371489586)microsecs at 412749801125
+
+*** 2022-10-16 05:01:54.214
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (3192130816)microsecs at 1665876714
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5835595)microsecs at 412764431280
+
+*** 2022-10-16 07:30:36.840
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (324065408)microsecs at 1665885636
+
+*** 2022-10-16 07:30:36.859
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (8913830385)microsecs at 421678261666
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 965867776
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665885637
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4884520)microsecs at 476127331824
+
+*** 2022-10-16 23:33:20.824
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (3319000000)microsecs at 1665943400
+
+*** 2022-10-16 23:33:20.844
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3319736807)microsecs at 479447068638
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 2895292928
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665943401
+
+*** 2022-10-16 23:43:31.458
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1557537)microsecs at 480057682817
+
+*** 2022-10-16 23:43:36.461
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3600204)microsecs at 480062685337
+
+*** 2022-10-16 23:44:44.502
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66718596)microsecs at 480130727145
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (67000000)microsecs at 1665944084
+
+*** 2022-10-16 23:45:52.492
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (67042981)microsecs at 480198716513
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (68000000)microsecs at 1665944152
+
+*** 2022-10-16 23:47:00.103
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (67610867)microsecs at 480266327381
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (68000000)microsecs at 1665944220
+
+*** 2022-10-16 23:48:26.458
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (86355923)microsecs at 480352683305
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (86000000)microsecs at 1665944306
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1559112)microsecs at 480368032930
+
+*** 2022-10-16 23:48:47.075
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3966118)microsecs at 480373299169
+
+*** 2022-10-16 23:53:37.065
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (288684439)microsecs at 480663288889
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (289000000)microsecs at 1665944617
+
+*** 2022-10-16 23:53:42.067
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5002347)microsecs at 480668291237
+
+*** 2022-10-17 00:17:37.145
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1435032397)microsecs at 482103369002
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (1435000000)microsecs at 1665946057
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10302650279)microsecs at 492407058300
+
+*** 2022-10-17 03:09:20.834
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (1712065408)microsecs at 1665956360
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4652358)microsecs at 492420945012
+
+*** 2022-10-17 08:25:44.899
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (1795130816)microsecs at 1665975344
+
+*** 2022-10-17 08:25:44.923
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (18974796735)microsecs at 511395741756
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 479554560
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665975345
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (39351029)microsecs at 521768297445
+
+*** 2022-10-17 11:18:37.478
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (40000000)microsecs at 1665985717
+
+*** 2022-10-17 11:19:13.260
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (34730606)microsecs at 521804079346
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (35000000)microsecs at 1665985753
+
+*** 2022-10-17 11:19:48.826
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (34536534)microsecs at 521839646338
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665985788
+
+*** 2022-10-17 11:20:24.415
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (35309666)microsecs at 521875234574
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (36000000)microsecs at 1665985824
+
+*** 2022-10-17 11:20:59.984
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (34540155)microsecs at 521910804509
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665985859
+
+*** 2022-10-17 11:21:35.578
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (34519540)microsecs at 521946397045
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (35000000)microsecs at 1665985895
+
+*** 2022-10-17 11:23:27.776
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (111179283)microsecs at 522058595056
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (111000000)microsecs at 1665986007
+
+*** 2022-10-17 11:24:02.015
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33194819)microsecs at 522092834200
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665986042
+
+*** 2022-10-17 11:24:26.498
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5002690)microsecs at 522117317054
+
+*** 2022-10-17 11:25:03.587
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (34467077)microsecs at 522154406191
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (35000000)microsecs at 1665986103
+
+*** 2022-10-17 11:53:47.585
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1723949604)microsecs at 523878404114
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (1724000000)microsecs at 1665987827
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (61099651)microsecs at 523940531924
+
+*** 2022-10-17 11:54:49.715
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (61000000)microsecs at 1665987889
+
+*** 2022-10-17 11:55:25.294
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (34541692)microsecs at 523976112977
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (35000000)microsecs at 1665987925
+
+*** 2022-10-17 11:58:17.516
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (171178821)microsecs at 524148335085
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (171000000)microsecs at 1665988097
+
+*** 2022-10-17 11:58:33.768
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1365637)microsecs at 524164587750
+
+*** 2022-10-17 11:58:38.826
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3747781)microsecs at 524169645664
+
+*** 2022-10-17 12:03:29.150
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (289021081)microsecs at 524459969674
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (290000000)microsecs at 1665988409
+
+*** 2022-10-17 12:03:34.140
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3692311)microsecs at 524464958992
+
+*** 2022-10-17 13:06:08.208
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3754023521)microsecs at 528219027398
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (3754000000)microsecs at 1665992168
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (7890385)microsecs at 528230057826
+
+*** 2022-10-17 13:06:19.240
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (8000000)microsecs at 1665992179
+
+*** 2022-10-17 13:06:30.305
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11035058)microsecs at 528241124062
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665992190
+
+*** 2022-10-17 13:06:41.358
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11033576)microsecs at 528252177224
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665992201
+
+*** 2022-10-17 13:06:52.399
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025118)microsecs at 528263218441
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665992212
+
+*** 2022-10-17 13:07:03.460
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11029333)microsecs at 528274279348
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665992256
+
+*** 2022-10-17 13:07:58.750
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55289976)microsecs at 528329569325
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665992311
+
+*** 2022-10-17 13:08:54.099
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55349120)microsecs at 528384918446
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (23000000)microsecs at 1665992334
+
+*** 2022-10-17 13:09:05.134
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11019232)microsecs at 528395953594
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665992378
+
+*** 2022-10-17 13:10:00.430
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55295440)microsecs at 528451249036
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665992433
+
+*** 2022-10-17 13:10:55.703
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273056)microsecs at 528506522094
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665992488
+
+*** 2022-10-17 13:11:50.983
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279659)microsecs at 528561801754
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665992544
+
+*** 2022-10-17 13:12:46.264
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281316)microsecs at 528617083071
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665992599
+
+*** 2022-10-17 13:13:30.539
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44274867)microsecs at 528661357940
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665992610
+
+*** 2022-10-17 13:13:41.515
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10788272)microsecs at 528672334681
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665992654
+
+*** 2022-10-17 13:14:36.805
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55289388)microsecs at 528727624070
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665992709
+
+*** 2022-10-17 13:15:32.079
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274485)microsecs at 528782898557
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665992765
+
+*** 2022-10-17 13:16:27.356
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276701)microsecs at 528838175260
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665992820
+
+*** 2022-10-17 13:17:22.634
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277812)microsecs at 528893453073
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665992875
+
+*** 2022-10-17 13:18:17.909
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275330)microsecs at 528948728404
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665992931
+
+*** 2022-10-17 13:19:13.178
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269138)microsecs at 529003997543
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665992986
+
+*** 2022-10-17 13:19:57.471
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44292950)microsecs at 529048290495
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665992997
+
+*** 2022-10-17 13:20:08.512
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11024990)microsecs at 529059331517
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665993041
+
+*** 2022-10-17 13:21:03.794
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281395)microsecs at 529114612914
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665993096
+
+*** 2022-10-17 13:21:59.059
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55265268)microsecs at 529169878183
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (23000000)microsecs at 1665993119
+
+*** 2022-10-17 13:22:10.102
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11027465)microsecs at 529180921129
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665993163
+
+*** 2022-10-17 13:23:05.397
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55295550)microsecs at 529236216680
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665993218
+
+*** 2022-10-17 13:24:00.669
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271538)microsecs at 529291488219
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665993273
+
+*** 2022-10-17 13:24:55.939
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270358)microsecs at 529346758578
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665993329
+
+*** 2022-10-17 13:25:51.206
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55266827)microsecs at 529402025407
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665993384
+
+*** 2022-10-17 13:26:46.476
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269411)microsecs at 529457294820
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665993439
+
+*** 2022-10-17 13:27:41.745
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269243)microsecs at 529512564065
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665993494
+
+*** 2022-10-17 13:28:37.015
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270632)microsecs at 529567834698
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665993528
+
+*** 2022-10-17 13:28:48.132
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11116973)microsecs at 529578951672
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1483685376
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10768939)microsecs at 529589928893
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665993539
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665993539
+
+*** 2022-10-17 13:29:10.173
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11031236)microsecs at 529600991747
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665993583
+
+*** 2022-10-17 13:30:05.446
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273925)microsecs at 529656265673
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665993616
+
+*** 2022-10-17 13:30:16.503
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11056514)microsecs at 529667322188
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1571685376
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025102)microsecs at 529678363357
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665993649
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665993649
+
+*** 2022-10-17 13:31:33.892
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66348000)microsecs at 529744711358
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (78000000)microsecs at 1665993727
+
+*** 2022-10-17 13:32:29.165
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273300)microsecs at 529799984660
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665993782
+
+*** 2022-10-17 13:33:24.433
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267283)microsecs at 529855251944
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665993837
+
+*** 2022-10-17 13:33:57.599
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33166533)microsecs at 529888418478
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665993848
+
+*** 2022-10-17 13:34:08.660
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11060455)microsecs at 529899478934
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665993870
+
+*** 2022-10-17 13:34:52.880
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44219945)microsecs at 529943698881
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665993926
+
+*** 2022-10-17 13:35:48.151
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271636)microsecs at 529998970518
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665993981
+
+*** 2022-10-17 13:36:32.373
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44221555)microsecs at 530043192075
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665993992
+
+*** 2022-10-17 13:36:43.415
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025936)microsecs at 530054234206
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665994025
+
+*** 2022-10-17 13:37:27.650
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44235149)microsecs at 530098469356
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665994080
+
+*** 2022-10-17 13:38:11.865
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44215141)microsecs at 530142684498
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665994091
+
+*** 2022-10-17 13:38:22.907
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11026180)microsecs at 530153726751
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665994102
+
+*** 2022-10-17 13:38:33.964
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11021048)microsecs at 530164783316
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665994113
+
+*** 2022-10-17 13:38:45.027
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11022691)microsecs at 530175846864
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (45000000)microsecs at 1665994158
+
+*** 2022-10-17 13:39:40.321
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55293339)microsecs at 530231140204
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665994202
+
+*** 2022-10-17 13:40:02.494
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (22173493)microsecs at 530253313699
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 2157685376
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11037189)microsecs at 530264382279
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665994235
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665994235
+
+*** 2022-10-17 13:41:19.892
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66329007)microsecs at 530330711287
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (78000000)microsecs at 1665994313
+
+*** 2022-10-17 13:42:15.160
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267753)microsecs at 530385979041
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665994368
+
+*** 2022-10-17 13:43:10.432
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272024)microsecs at 530441251066
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665994423
+
+*** 2022-10-17 13:44:05.700
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267850)microsecs at 530496518917
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665994445
+
+*** 2022-10-17 13:44:16.740
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10789425)microsecs at 530507559329
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665994489
+
+*** 2022-10-17 13:45:12.033
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55293151)microsecs at 530562852482
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665994545
+
+*** 2022-10-17 13:46:07.305
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271290)microsecs at 530618123774
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665994600
+
+*** 2022-10-17 13:47:02.570
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55265659)microsecs at 530673389434
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665994655
+
+*** 2022-10-17 13:47:57.842
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271797)microsecs at 530728661233
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665994710
+
+*** 2022-10-17 13:48:53.115
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273193)microsecs at 530783934428
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665994766
+
+*** 2022-10-17 13:49:48.384
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269107)microsecs at 530839203536
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665994821
+
+*** 2022-10-17 13:50:43.658
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273687)microsecs at 530894477225
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665994876
+
+*** 2022-10-17 13:51:38.928
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270190)microsecs at 530949747417
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665994932
+
+*** 2022-10-17 13:52:34.205
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277065)microsecs at 531005024483
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665994987
+
+*** 2022-10-17 13:53:18.420
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44214567)microsecs at 531049239051
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665994998
+
+*** 2022-10-17 13:53:29.473
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11036979)microsecs at 531060292013
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665995042
+
+*** 2022-10-17 13:54:24.749
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275991)microsecs at 531115568005
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665995097
+
+*** 2022-10-17 13:55:20.024
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275101)microsecs at 531170843107
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665995153
+
+*** 2022-10-17 13:56:15.294
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269991)microsecs at 531226113099
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665995208
+
+*** 2022-10-17 13:57:10.560
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55266194)microsecs at 531281379294
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665995263
+
+*** 2022-10-17 13:58:05.829
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55268781)microsecs at 531336648077
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665995318
+
+*** 2022-10-17 13:59:01.101
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272368)microsecs at 531391920446
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (45000000)microsecs at 1665995363
+
+*** 2022-10-17 13:59:23.288
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (22186823)microsecs at 531414107270
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 3318685376
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10786551)microsecs at 531425081560
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665995396
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665995396
+
+*** 2022-10-17 14:00:40.583
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66321116)microsecs at 531491402677
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (77000000)microsecs at 1665995473
+
+*** 2022-10-17 14:01:35.853
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269992)microsecs at 531546672670
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665995529
+
+*** 2022-10-17 14:02:31.132
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278941)microsecs at 531601951613
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665995584
+
+*** 2022-10-17 14:03:26.397
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55264304)microsecs at 531657215918
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665995639
+
+*** 2022-10-17 14:04:21.674
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277294)microsecs at 531712493213
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665995694
+
+*** 2022-10-17 14:05:16.948
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273814)microsecs at 531767767028
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665995750
+
+*** 2022-10-17 14:06:12.218
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269984)microsecs at 531823037014
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665995805
+
+*** 2022-10-17 14:07:07.493
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275055)microsecs at 531878312071
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665995860
+
+*** 2022-10-17 14:08:02.769
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276150)microsecs at 531933588223
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665995915
+
+*** 2022-10-17 14:08:46.991
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44222372)microsecs at 531977810596
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665995926
+
+*** 2022-10-17 14:08:58.033
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11025984)microsecs at 531988852657
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (45000000)microsecs at 1665995971
+
+*** 2022-10-17 14:09:53.322
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55288679)microsecs at 532044141339
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665996026
+
+*** 2022-10-17 14:10:48.592
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270253)microsecs at 532099411593
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665996081
+
+*** 2022-10-17 14:11:43.880
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55287474)microsecs at 532154699068
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665996137
+
+*** 2022-10-17 14:12:39.152
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272071)microsecs at 532209971141
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665996192
+
+*** 2022-10-17 14:13:34.427
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274676)microsecs at 532265245818
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665996247
+
+*** 2022-10-17 14:14:07.601
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33174809)microsecs at 532298420628
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665996258
+
+*** 2022-10-17 14:14:18.657
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11055484)microsecs at 532309476114
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665996280
+
+*** 2022-10-17 14:14:40.834
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (22177378)microsecs at 532331653494
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 4235685376
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10766688)microsecs at 532342625366
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665996313
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665996313
+
+*** 2022-10-17 14:15:58.154
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66347698)microsecs at 532408973065
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (78000000)microsecs at 1665996391
+
+*** 2022-10-17 14:16:53.426
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271901)microsecs at 532464244966
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665996446
+
+*** 2022-10-17 14:17:26.591
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33164870)microsecs at 532497409838
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665996457
+
+*** 2022-10-17 14:17:37.653
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11062621)microsecs at 532508472461
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665996479
+
+*** 2022-10-17 14:18:21.873
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44219662)microsecs at 532552692125
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665996535
+
+*** 2022-10-17 14:19:17.155
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55282520)microsecs at 532607974647
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665996590
+
+*** 2022-10-17 14:20:12.431
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275082)microsecs at 532663249731
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665996645
+
+*** 2022-10-17 14:21:07.702
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271599)microsecs at 532718521331
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665996700
+
+*** 2022-10-17 14:22:02.970
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55268275)microsecs at 532773789608
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665996756
+
+*** 2022-10-17 14:22:58.241
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270874)microsecs at 532829060483
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665996811
+
+*** 2022-10-17 14:23:53.516
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274588)microsecs at 532884335072
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665996866
+
+*** 2022-10-17 14:24:37.730
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44214589)microsecs at 532928549662
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665996877
+
+*** 2022-10-17 14:24:48.769
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11021842)microsecs at 532939588578
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665996921
+
+*** 2022-10-17 14:25:44.054
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55285112)microsecs at 532994873691
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665996977
+
+*** 2022-10-17 14:26:39.324
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269507)microsecs at 533050143199
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665997032
+
+*** 2022-10-17 14:27:34.602
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278237)microsecs at 533105421438
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665997087
+
+*** 2022-10-17 14:28:29.878
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275800)microsecs at 533160697240
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665997143
+
+*** 2022-10-17 14:29:25.159
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280850)microsecs at 533215978091
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665997198
+
+*** 2022-10-17 14:29:58.385
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33226470)microsecs at 533249204563
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 858718080
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10818668)microsecs at 533260196079
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665997231
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665997231
+
+*** 2022-10-17 14:31:15.704
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66326971)microsecs at 533326523052
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (77000000)microsecs at 1665997308
+
+*** 2022-10-17 14:32:10.976
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272567)microsecs at 533381795621
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665997364
+
+*** 2022-10-17 14:33:06.253
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276618)microsecs at 533437072241
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665997419
+
+*** 2022-10-17 14:34:01.519
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55265501)microsecs at 533492337744
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665997474
+
+*** 2022-10-17 14:34:56.791
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272414)microsecs at 533547610160
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665997529
+
+*** 2022-10-17 14:35:52.061
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269971)microsecs at 533602880132
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665997585
+
+*** 2022-10-17 14:36:47.337
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275705)microsecs at 533658155838
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665997640
+
+*** 2022-10-17 14:37:42.613
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276518)microsecs at 533713432357
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665997695
+
+*** 2022-10-17 14:38:37.883
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270167)microsecs at 533768702526
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665997751
+
+*** 2022-10-17 14:39:33.160
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276992)microsecs at 533823979519
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665997806
+
+*** 2022-10-17 14:40:17.377
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44216835)microsecs at 533868196355
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665997817
+
+*** 2022-10-17 14:40:28.417
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11024003)microsecs at 533879236477
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665997861
+
+*** 2022-10-17 14:41:23.704
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55287140)microsecs at 533934523618
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665997916
+
+*** 2022-10-17 14:42:18.983
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278880)microsecs at 533989802499
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665997972
+
+*** 2022-10-17 14:43:14.253
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269614)microsecs at 534045072114
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665998027
+
+*** 2022-10-17 14:44:09.534
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55280985)microsecs at 534100353100
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665998082
+
+*** 2022-10-17 14:45:04.807
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273183)microsecs at 534155626284
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665998115
+
+*** 2022-10-17 14:45:15.927
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11120174)microsecs at 534166746459
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1775718080
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10800677)microsecs at 534177719741
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665998149
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665998149
+
+*** 2022-10-17 14:46:33.241
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66340841)microsecs at 534244060584
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (77000000)microsecs at 1665998226
+
+*** 2022-10-17 14:47:28.520
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278408)microsecs at 534299338993
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665998281
+
+*** 2022-10-17 14:48:23.787
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267291)microsecs at 534354606286
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665998336
+
+*** 2022-10-17 14:49:19.059
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271961)microsecs at 534409878249
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665998392
+
+*** 2022-10-17 14:50:14.335
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275834)microsecs at 534465154084
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665998447
+
+*** 2022-10-17 14:51:09.612
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277010)microsecs at 534520431095
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665998502
+
+*** 2022-10-17 14:52:04.887
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274918)microsecs at 534575706014
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665998558
+
+*** 2022-10-17 14:53:00.166
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279594)microsecs at 534630985609
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665998613
+
+*** 2022-10-17 14:53:33.328
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33161933)microsecs at 534664147543
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665998624
+
+*** 2022-10-17 14:53:44.386
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11057668)microsecs at 534675205213
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1665998646
+
+*** 2022-10-17 14:54:28.608
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44221758)microsecs at 534719426972
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665998701
+
+*** 2022-10-17 14:55:23.878
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270156)microsecs at 534774697129
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665998757
+
+*** 2022-10-17 14:56:08.104
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44225957)microsecs at 534818923088
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665998768
+
+*** 2022-10-17 14:56:19.143
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11023144)microsecs at 534829962352
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665998812
+
+*** 2022-10-17 14:57:14.432
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55289303)microsecs at 534885251658
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665998867
+
+*** 2022-10-17 14:58:09.703
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270443)microsecs at 534940522102
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665998922
+
+*** 2022-10-17 14:59:04.973
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270221)microsecs at 534995792325
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665998978
+
+*** 2022-10-17 15:00:00.248
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275297)microsecs at 535051067623
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665999033
+
+*** 2022-10-17 15:00:33.414
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33165459)microsecs at 535084233084
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 2693718080
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10818850)microsecs at 535095289927
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665999066
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665999066
+
+*** 2022-10-17 15:01:50.797
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66326449)microsecs at 535161616378
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (77000000)microsecs at 1665999143
+
+*** 2022-10-17 15:02:46.074
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276782)microsecs at 535216893161
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665999199
+
+*** 2022-10-17 15:03:41.349
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275262)microsecs at 535272168425
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665999254
+
+*** 2022-10-17 15:04:36.620
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270906)microsecs at 535327439332
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665999309
+
+*** 2022-10-17 15:05:31.895
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274791)microsecs at 535382714125
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665999365
+
+*** 2022-10-17 15:06:27.178
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55283173)microsecs at 535437997300
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665999420
+
+*** 2022-10-17 15:07:22.448
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269749)microsecs at 535493267050
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665999475
+
+*** 2022-10-17 15:08:17.714
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55266354)microsecs at 535548533405
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665999530
+
+*** 2022-10-17 15:09:12.986
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271762)microsecs at 535603805168
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665999586
+
+*** 2022-10-17 15:10:08.265
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278963)microsecs at 535659084133
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665999641
+
+*** 2022-10-17 15:11:03.539
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274033)microsecs at 535714358167
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665999696
+
+*** 2022-10-17 15:11:47.759
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44220019)microsecs at 535758578188
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665999707
+
+*** 2022-10-17 15:11:58.814
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11036507)microsecs at 535769632791
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1665999751
+
+*** 2022-10-17 15:12:54.087
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273810)microsecs at 535824906602
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1665999807
+
+*** 2022-10-17 15:13:49.365
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277594)microsecs at 535880184198
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665999862
+
+*** 2022-10-17 15:14:44.633
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267825)microsecs at 535935452025
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1665999917
+
+*** 2022-10-17 15:15:39.903
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270186)microsecs at 535990722212
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (34000000)microsecs at 1665999951
+
+*** 2022-10-17 15:15:51.020
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11116928)microsecs at 536001839141
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 3611718080
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10771634)microsecs at 536012830097
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1665999984
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1665999984
+
+*** 2022-10-17 15:16:24.118
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (22107006)microsecs at 536034937104
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1665999995
+
+*** 2022-10-17 15:16:35.176
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11057910)microsecs at 536045995015
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1666000017
+
+*** 2022-10-17 15:17:19.397
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44221232)microsecs at 536090216249
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000072
+
+*** 2022-10-17 15:18:14.670
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273330)microsecs at 536145489580
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000127
+
+*** 2022-10-17 15:19:09.949
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278681)microsecs at 536200768262
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666000183
+
+*** 2022-10-17 15:20:05.226
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276739)microsecs at 536256045003
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000238
+
+*** 2022-10-17 15:21:00.496
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270665)microsecs at 536311315669
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000293
+
+*** 2022-10-17 15:21:55.772
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275690)microsecs at 536366591360
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000348
+
+*** 2022-10-17 15:22:51.048
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275532)microsecs at 536421866893
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666000404
+
+*** 2022-10-17 15:23:46.315
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267735)microsecs at 536477134629
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000459
+
+*** 2022-10-17 15:24:41.587
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271501)microsecs at 536532406131
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000514
+
+*** 2022-10-17 15:25:36.859
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272135)microsecs at 536587678267
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666000570
+
+*** 2022-10-17 15:26:32.134
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274689)microsecs at 536642952957
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000625
+
+*** 2022-10-17 15:27:16.352
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44218113)microsecs at 536687171071
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1666000636
+
+*** 2022-10-17 15:27:27.406
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11037601)microsecs at 536698225582
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1666000680
+
+*** 2022-10-17 15:28:22.677
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270479)microsecs at 536753496063
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000735
+
+*** 2022-10-17 15:29:17.957
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279818)microsecs at 536808775882
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666000791
+
+*** 2022-10-17 15:30:13.229
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272253)microsecs at 536864048136
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000846
+
+*** 2022-10-17 15:31:08.508
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55279555)microsecs at 536919327692
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1666000868
+
+*** 2022-10-17 15:31:19.551
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10775795)microsecs at 536930370375
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1666000912
+
+*** 2022-10-17 15:32:14.840
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55288338)microsecs at 536985658743
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666000967
+
+*** 2022-10-17 15:33:10.106
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55266046)microsecs at 537040924790
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666001023
+
+*** 2022-10-17 15:34:05.387
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281303)microsecs at 537096206095
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666001078
+
+*** 2022-10-17 15:35:00.658
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271289)microsecs at 537151477385
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666001133
+
+*** 2022-10-17 15:35:55.928
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269867)microsecs at 537206747253
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666001189
+
+*** 2022-10-17 15:36:51.203
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275455)microsecs at 537262022710
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666001244
+
+*** 2022-10-17 15:37:46.476
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272239)microsecs at 537317294950
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666001299
+
+*** 2022-10-17 15:38:41.745
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269175)microsecs at 537372564126
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666001354
+
+*** 2022-10-17 15:39:37.019
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274102)microsecs at 537427838229
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666001410
+
+*** 2022-10-17 15:40:32.294
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274682)microsecs at 537483112912
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666001465
+
+*** 2022-10-17 15:41:27.570
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55276199)microsecs at 537538389112
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666001520
+
+*** 2022-10-17 15:42:22.851
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281555)microsecs at 537593670669
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (45000000)microsecs at 1666001565
+
+*** 2022-10-17 15:42:45.020
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (22168411)microsecs at 537615839080
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 930750784
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11027073)microsecs at 537626881913
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1666001576
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1666001576
+
+*** 2022-10-17 15:43:07.122
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11023449)microsecs at 537637941513
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1666001587
+
+*** 2022-10-17 15:43:18.181
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11026467)microsecs at 537648999799
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1666001631
+
+*** 2022-10-17 15:44:13.467
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55286799)microsecs at 537704286599
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666001686
+
+*** 2022-10-17 15:44:46.626
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33158304)microsecs at 537737444904
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1666001697
+
+*** 2022-10-17 15:44:57.683
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11057133)microsecs at 537748502038
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1666001719
+
+*** 2022-10-17 15:45:41.906
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44222827)microsecs at 537792724866
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666001775
+
+*** 2022-10-17 15:46:37.179
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273690)microsecs at 537847998559
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1666001797
+
+*** 2022-10-17 15:46:48.235
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10787970)microsecs at 537859054032
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1666001841
+
+*** 2022-10-17 15:47:43.510
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275590)microsecs at 537914329623
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666001896
+
+*** 2022-10-17 15:48:38.784
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273418)microsecs at 537969603043
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666001951
+
+*** 2022-10-17 15:49:34.058
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274285)microsecs at 538024877330
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666002007
+
+*** 2022-10-17 15:50:29.330
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271505)microsecs at 538080148836
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666002062
+
+*** 2022-10-17 15:51:24.608
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278537)microsecs at 538135427375
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666002117
+
+*** 2022-10-17 15:52:19.882
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274106)microsecs at 538190701483
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666002173
+
+*** 2022-10-17 15:53:15.151
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55268769)microsecs at 538245970253
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1666002195
+
+*** 2022-10-17 15:53:26.201
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11034274)microsecs at 538257020625
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1666002239
+
+*** 2022-10-17 15:54:21.469
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267843)microsecs at 538312288470
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666002294
+
+*** 2022-10-17 15:55:16.735
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55266159)microsecs at 538367554630
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666002349
+
+*** 2022-10-17 15:56:12.009
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273650)microsecs at 538422828281
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666002405
+
+*** 2022-10-17 15:57:07.283
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273450)microsecs at 538478101732
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666002460
+
+*** 2022-10-17 15:58:02.555
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272451)microsecs at 538533374185
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666002515
+
+*** 2022-10-17 15:58:46.784
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44229038)microsecs at 538577603224
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1666002526
+
+*** 2022-10-17 15:58:57.838
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11037350)microsecs at 538588657060
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1666002570
+
+*** 2022-10-17 15:59:53.105
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55267340)microsecs at 538643924401
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666002626
+
+*** 2022-10-17 16:00:48.387
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281760)microsecs at 538699206163
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666002681
+
+*** 2022-10-17 16:01:43.656
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55268712)microsecs at 538754474876
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1666002714
+
+*** 2022-10-17 16:01:54.776
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11120298)microsecs at 538765595175
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 2079750784
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10767109)microsecs at 538776564774
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1666002747
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1666002747
+
+*** 2022-10-17 16:03:12.090
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (66344208)microsecs at 538842908983
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (78000000)microsecs at 1666002825
+
+*** 2022-10-17 16:04:07.367
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277025)microsecs at 538898186010
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666002880
+
+*** 2022-10-17 16:05:02.637
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270467)microsecs at 538953456478
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666002935
+
+*** 2022-10-17 16:05:57.912
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274544)microsecs at 539008731024
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666002991
+
+*** 2022-10-17 16:06:42.136
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44223981)microsecs at 539052955007
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1666003002
+
+*** 2022-10-17 16:06:53.188
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11036425)microsecs at 539064007517
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1666003035
+
+*** 2022-10-17 16:07:37.408
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44220114)microsecs at 539108227633
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666003090
+
+*** 2022-10-17 16:08:32.679
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270534)microsecs at 539163498168
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666003145
+
+*** 2022-10-17 16:09:27.947
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55268431)microsecs at 539218766600
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666003201
+
+*** 2022-10-17 16:10:23.229
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55281277)microsecs at 539274047879
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666003256
+
+*** 2022-10-17 16:11:18.499
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270540)microsecs at 539329318420
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666003311
+
+*** 2022-10-17 16:12:13.773
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274162)microsecs at 539384592583
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666003366
+
+*** 2022-10-17 16:13:09.043
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269826)microsecs at 539439862411
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666003422
+
+*** 2022-10-17 16:13:53.256
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44212930)microsecs at 539484075343
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1666003433
+
+*** 2022-10-17 16:14:04.298
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11026520)microsecs at 539495117929
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1666003477
+
+*** 2022-10-17 16:14:59.595
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55296702)microsecs at 539550414632
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666003532
+
+*** 2022-10-17 16:15:54.864
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269038)microsecs at 539605683672
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666003588
+
+*** 2022-10-17 16:16:50.136
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55271863)microsecs at 539660955536
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (44000000)microsecs at 1666003632
+
+*** 2022-10-17 16:17:12.313
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (22176567)microsecs at 539683132105
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 2997750784
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (10784979)microsecs at 539694105284
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (33000000)microsecs at 1666003665
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1666003665
+
+*** 2022-10-17 16:17:45.416
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (22130022)microsecs at 539716235307
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1666003676
+
+*** 2022-10-17 16:17:56.470
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11053778)microsecs at 539727289087
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1666003698
+
+*** 2022-10-17 16:18:40.690
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44220108)microsecs at 539771509197
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666003753
+
+*** 2022-10-17 16:19:13.852
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (33161918)microsecs at 539804671116
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (11000000)microsecs at 1666003764
+
+*** 2022-10-17 16:19:24.910
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (11057998)microsecs at 539815729116
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (22000000)microsecs at 1666003786
+
+*** 2022-10-17 16:20:09.126
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (44215839)microsecs at 539859944957
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666003842
+
+*** 2022-10-17 16:21:04.404
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55278457)microsecs at 539915223416
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666003897
+
+*** 2022-10-17 16:21:59.682
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55277784)microsecs at 539970501202
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666003952
+
+*** 2022-10-17 16:22:54.956
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55274100)microsecs at 540025775304
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666004008
+
+*** 2022-10-17 16:23:50.227
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55270905)microsecs at 540081046211
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666004063
+
+*** 2022-10-17 16:24:45.501
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273624)microsecs at 540136319836
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666004118
+
+*** 2022-10-17 16:25:40.770
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55269163)microsecs at 540191589001
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666004173
+
+*** 2022-10-17 16:26:36.042
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55272424)microsecs at 540246861426
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (56000000)microsecs at 1666004229
+
+*** 2022-10-17 16:27:31.317
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55275021)microsecs at 540302136449
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (55000000)microsecs at 1666004284
+
+*** 2022-10-17 16:28:26.591
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (55273650)microsecs at 540357410100
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (27000000)microsecs at 1666004311
+
+*** 2022-10-17 16:28:31.115
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4523886)microsecs at 540361933988
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 3676750784
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1666004312
+
+*** 2022-10-17 16:30:38.867
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1865515)microsecs at 540489686762
+
+*** 2022-10-17 16:30:52.916
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (12745346)microsecs at 540503735705
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (13000000)microsecs at 1666004452
+
+*** 2022-10-17 23:46:43.903
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (26150941997)microsecs at 566654722973
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (381196224)microsecs at 1666030603
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5174194)microsecs at 566668191399
+
+*** 2022-10-18 21:40:27.839
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (1506588672)microsecs at 1666109427
+
+*** 2022-10-18 21:40:27.859
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (78815630164)microsecs at 645483821565
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 1418568384
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1666109428
+
+*** 2022-10-18 21:46:12.846
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (1807990)microsecs at 645828808620
+
+*** 2022-10-18 21:46:17.971
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (3591779)microsecs at 645833933300
+
+*** 2022-10-18 21:47:59.465
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (100054594)microsecs at 645935428373
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (101000000)microsecs at 1666109879
+
+*** 2022-10-18 21:48:35.064
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (34284646)microsecs at 645971027520
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (35000000)microsecs at 1666109915
+
+*** 2022-10-18 21:51:18.607
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (163494723)microsecs at 646134569888
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (163000000)microsecs at 1666110078
+
+*** 2022-10-19 04:15:26.186
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (23046482205)microsecs at 669182148286
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (1572163520)microsecs at 1666133126
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (5148861)microsecs at 669195957135
+
+*** 2022-10-19 08:56:18.837
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (3959098112)microsecs at 1666149978
+
+*** 2022-10-19 08:56:18.858
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (16843979003)microsecs at 686039936140
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 3314862720
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1666149979
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (6271084)microsecs at 704881509574
+
+*** 2022-10-19 22:02:04.838
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (2541196224)microsecs at 1666197124
+
+*** 2022-10-19 22:02:04.859
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (28310660901)microsecs at 733192170476
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 3216222464
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1666197125
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (4456403)microsecs at 741203269298
+
+*** 2022-10-20 07:36:30.817
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (690196224)microsecs at 1666231590
+
+*** 2022-10-20 07:36:30.842
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (26459264575)microsecs at 767662533878
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time stalled at 3322484096
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Stall, backward drift ended at 1666231591
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (300401046)microsecs at 770170392910
+
+*** 2022-10-20 08:18:18.702
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (301000000)microsecs at 1666234098
+
+*** 2022-10-20 08:23:06.899
+kstmchkdrift (kstmhighrestimecntkeeper:highres): Time jumped forward by (288198585)microsecs at 770458591496
+kstmchkdrift (kstmhighrestimecntkeeper:lowres): Time jumped forward by (288000000)microsecs at 1666234386

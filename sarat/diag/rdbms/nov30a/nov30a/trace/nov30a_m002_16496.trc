@@ -1,0 +1,156 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_m002_16496.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:6647M/16167M, Ph+PgF:10097M/24871M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 25
+Windows thread id: 16496, image: ORACLE.EXE (M002)
+
+
+*** 2022-10-13 11:54:41.729
+*** SESSION ID:(33.27) 2022-10-13 11:54:41.729
+*** CLIENT ID:() 2022-10-13 11:54:41.729
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-13 11:54:41.729
+*** MODULE NAME:(MMON_SLAVE) 2022-10-13 11:54:41.729
+*** ACTION NAME:(Auto-Flush Slave Action) 2022-10-13 11:54:41.729
+ 
+DDE rules only execution for: ORA 12751
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+Executing ASYNC actions
+----- START DDE Action: 'ORA_12751_DUMP' (Sync) -----
+Runtime exceeded 900 seconds
+Time limit violation detected at:
+ksedsts()+585<-kspol_12751_dump()+189<-dbgdaExecuteAction()+1093<-dbgerRunAction()+158<-dbgerRunActions()+4220<-dbgexPhaseII()+1939<-dbgexProcessError()+2563<-dbgeExecuteForError()+65<-dbgePostErrorKGE()+1726<-dbkePostKGE_kgsf()+75<-kgesev()+328<-ksesec0()+108
+<-ksucin()+161<-sorgetqbf()+1675<-qersoFetch()+318<-rwsfcd()+136<-qerltcFetch()+1447<-insexe()+923<-opiexe()+6188<-kpoal8()+2482<-opiodr()+1662<-__PGOSF523_kpoodrc()+32<-rpiswu2()+2757<-kpoodr()+717<-xupirtrc()+2739<-upirtrc()+124<-kpurcsc()+150<-kpuexec()+9766
+<-OCIStmtExecute()+70<-kewrose_oci_stmt_exec()+79<-kewrgwxf1_gwrsql_exft_1()+407<-kewrgwxf_gwrsql_exft()+620<-kewrews_execute_wr_sql()+72<-kewrftbs_flush_table_by_sql()+210<-kewmfafmv_flush_afmv()+152<-kewmfsmd_flush_sysmdata()+55<-kewrft_flush_table()+178
+<-kewrftec_flush_table_ehdlcx()+454<-kewrfat_flush_all_tables()+1542<-kewrfos_flush_onesnap()+167<-kewrfsc_flush_snapshot_c()+613<-kewrafs_auto_flush_slave()+548<-kebm_slave_main()+856<-ksvrdp()+2506<-opirip()+965<-opidrv()+909<-sou2o()+98<-opimai_real()+299
+<-opimai()+191<-BackgroundThreadStart()+693<-00007FFA6524244D<-00007FFA66C2DF78
+Current Wait Stack:
+  Not in wait; last wait ended 25 min 55 sec ago 
+Wait State:
+  fixed_waits=0 flags=0x21 boundary=0x0000000000000000/-1
+Session Wait History:
+    elapsed time of 25 min 55 sec since last wait
+ 0: waited for 'db file scattered read'
+    file#=0x2, block#=0xde30, blocks=0x6
+    wait_id=2 seq_num=3 snap_id=1
+    wait times: snap=0.001321 sec, exc=0.001321 sec, total=0.001321 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000003 sec of elapsed time
+ 1: waited for 'Disk file operations I/O'
+    FileOperation=0x2, fileno=0x2, filetype=0x2
+    wait_id=1 seq_num=2 snap_id=1
+    wait times: snap=0.000465 sec, exc=0.000465 sec, total=0.000465 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.003974 sec of elapsed time
+ 2: waited for 'class slave wait'
+    slave id=0x110e0360, =0x0, =0x0
+    wait_id=0 seq_num=1 snap_id=1
+    wait times: snap=0.000020 sec, exc=0.000020 sec, total=0.000020 sec
+    wait times: max=infinite
+    wait counts: calls=1 os=1
+    occurred after 0.000000 sec of elapsed time
+Sampled Session History of session 33 serial 27
+---------------------------------------------------
+The sampled session history is constructed by sampling
+the target session every 1 second. The sampling process
+captures at each sample if the session is in a non-idle wait,
+an idle wait, or not in a wait. If the session is in a
+non-idle wait then one interval is shown for all the samples
+the session was in the same non-idle wait. If the
+session is in an idle wait or not in a wait for
+consecutive samples then one interval is shown for all
+the consecutive samples. Though we display these consecutive
+samples  in a single interval the session may NOT be continuously
+idle or not in a wait (the sampling process does not know).
+ 
+The history is displayed in reverse chronological order.
+ 
+sample interval: 1 sec, max history 120 sec
+---------------------------------------------------
+  [1 sample,                                                          11:54:41]
+    not in wait at each sample
+  [120 samples,                                            11:52:42 - 11:54:40]
+    idle wait at each sample
+----- END DDE Action: 'ORA_12751_DUMP' (SUCCESS, 80 csec) -----
+----- END DDE Actions Dump (total 80 csec) -----
+*** KEWROCISTMTEXEC - encountered error: (ORA-12751: cpu time or run time policy violation
+)  
+  *** SQLSTR: total-len=304, dump-len=240, 
+      STR={insert into wrh$_sysmetric_history     (snap_id, dbid, instance_number,      begin_time, end_time, intsize, group_id, metric_id, value)  select      :snap_id, :dbid, :instance_number,      begtime, endtime, intsize_csec,      groupid, metri}
+DDE rules only execution for: ORA 12751
+----- START Event Driven Actions Dump ----
+---- END Event Driven Actions Dump ----
+----- START DDE Actions Dump -----
+Executing SYNC actions
+Executing ASYNC actions
+----- START DDE Action: 'ORA_12751_DUMP' (Sync) -----
+Runtime exceeded 900 seconds
+Time limit violation detected at:
+ksedsts()+585<-kspol_12751_dump()+189<-dbgdaExecuteAction()+1093<-dbgerRunAction()+158<-dbgerRunActions()+4220<-dbgexPhaseII()+1939<-dbgexProcessError()+2563<-dbgeExecuteForError()+65<-dbgePostErrorKGE()+1726<-dbkePostKGE_kgsf()+75<-kgeade()+560<-kgerev()+125
+<-kserec1()+111<-OCIKSEC()+225<-kewrose_oci_stmt_exec()+335<-kewrgwxf1_gwrsql_exft_1()+407<-kewrgwxf_gwrsql_exft()+620<-kewrews_execute_wr_sql()+72<-kewrftbs_flush_table_by_sql()+210<-kewmfafmv_flush_afmv()+152<-kewmfsmd_flush_sysmdata()+55<-kewrft_flush_table()+178
+<-kewrftec_flush_table_ehdlcx()+454<-kewrfat_flush_all_tables()+1542<-kewrfos_flush_onesnap()+167<-kewrfsc_flush_snapshot_c()+613<-kewrafs_auto_flush_slave()+548<-kebm_slave_main()+856<-ksvrdp()+2506<-opirip()+965<-opidrv()+909<-sou2o()+98<-opimai_real()+299
+<-opimai()+191<-BackgroundThreadStart()+693<-00007FFA6524244D<-00007FFA66C2DF78
+Current Wait Stack:
+  Not in wait; last wait ended 25 min 55 sec ago 
+Wait State:
+  fixed_waits=0 flags=0x21 boundary=0x0000000000000000/-1
+Session Wait History:
+    elapsed time of 25 min 55 sec since last wait
+ 0: waited for 'db file scattered read'
+    file#=0x2, block#=0xde30, blocks=0x6
+    wait_id=2 seq_num=3 snap_id=1
+    wait times: snap=0.001321 sec, exc=0.001321 sec, total=0.001321 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.000003 sec of elapsed time
+ 1: waited for 'Disk file operations I/O'
+    FileOperation=0x2, fileno=0x2, filetype=0x2
+    wait_id=1 seq_num=2 snap_id=1
+    wait times: snap=0.000465 sec, exc=0.000465 sec, total=0.000465 sec
+    wait times: max=infinite
+    wait counts: calls=0 os=0
+    occurred after 0.003974 sec of elapsed time
+ 2: waited for 'class slave wait'
+    slave id=0x110e0360, =0x0, =0x0
+    wait_id=0 seq_num=1 snap_id=1
+    wait times: snap=0.000020 sec, exc=0.000020 sec, total=0.000020 sec
+    wait times: max=infinite
+    wait counts: calls=1 os=1
+    occurred after 0.000000 sec of elapsed time
+Sampled Session History of session 33 serial 27
+---------------------------------------------------
+The sampled session history is constructed by sampling
+the target session every 1 second. The sampling process
+captures at each sample if the session is in a non-idle wait,
+an idle wait, or not in a wait. If the session is in a
+non-idle wait then one interval is shown for all the samples
+the session was in the same non-idle wait. If the
+session is in an idle wait or not in a wait for
+consecutive samples then one interval is shown for all
+the consecutive samples. Though we display these consecutive
+samples  in a single interval the session may NOT be continuously
+idle or not in a wait (the sampling process does not know).
+ 
+The history is displayed in reverse chronological order.
+ 
+sample interval: 1 sec, max history 120 sec
+---------------------------------------------------
+  [1 sample,                                                          11:54:41]
+    not in wait at each sample
+  [120 samples,                                            11:52:42 - 11:54:40]
+    idle wait at each sample
+----- END DDE Action: 'ORA_12751_DUMP' (SUCCESS, 11 csec) -----
+----- END DDE Actions Dump (total 11 csec) -----
+*** KEWRAFM1: Error=13509 encountered by kewrfteh
+*** KEWRAFS: Error=13509 encountered by Auto Flush Slave.
+KEBM: MMON slave action policy violation. kewrmafsa_; viol=1; err=13509

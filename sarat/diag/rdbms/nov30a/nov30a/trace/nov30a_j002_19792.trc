@@ -1,0 +1,24 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_j002_19792.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:6338M/16167M, Ph+PgF:9860M/24871M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 24
+Windows thread id: 19792, image: ORACLE.EXE (J002)
+
+
+*** 2022-10-13 13:54:49.428
+*** SESSION ID:(4.163) 2022-10-13 13:54:49.428
+*** CLIENT ID:() 2022-10-13 13:54:49.428
+*** SERVICE NAME:(SYS$USERS) 2022-10-13 13:54:49.428
+*** MODULE NAME:(DBMS_SCHEDULER) 2022-10-13 13:54:49.428
+*** ACTION NAME:(PURGE_LOG) 2022-10-13 13:54:49.428
+ 
+
+*** 2022-10-13 13:55:33.641
+purge queue_table SYS.SCHEDULER_FILEWATCHER_QT
+purge queue_table SYS.SCHEDULER$_EVENT_QTAB

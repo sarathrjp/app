@@ -1,0 +1,25 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_vkrm_16032.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:1032M/16167M, Ph+PgF:4207M/30059M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 21
+Windows thread id: 16032, image: ORACLE.EXE (VKRM)
+
+
+*** 2022-10-19 22:02:05.504
+*** SESSION ID:(162.1270) 2022-10-19 22:02:05.504
+*** CLIENT ID:() 2022-10-19 22:02:05.504
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-19 22:02:05.504
+*** MODULE NAME:() 2022-10-19 22:02:05.504
+*** ACTION NAME:() 2022-10-19 22:02:05.504
+ 
+VKRM scheduling interval:(10)ms
+VKRM uses high resolution time: last active time=(645485275056) current time=(733192812151)
+
+*** 2022-10-20 07:36:33.040
+VKRM ends at (2115646)

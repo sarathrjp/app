@@ -1,0 +1,42 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_cjq0_8044.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:2750M/16167M, Ph+PgF:5035M/26251M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 19
+Windows thread id: 8044, image: ORACLE.EXE (CJQ0)
+
+
+*** 2022-10-15 07:08:37.678
+*** SESSION ID:(96.5) 2022-10-15 07:08:37.678
+*** CLIENT ID:() 2022-10-15 07:08:37.678
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-15 07:08:37.678
+*** MODULE NAME:() 2022-10-15 07:08:37.678
+*** ACTION NAME:() 2022-10-15 07:08:37.678
+ 
+Setting Resource Manager plan SCHEDULER[0x3008]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+MMNL absent for 8922 secs; Foregrounds taking over
+
+*** 2022-10-16 07:30:36.949
+ktsmgtur(): TUR was not tuned for 8922 secs
+ktsmg_advance_slot(): MMNL advances slot after 9445 seconds
+Setting Resource Manager plan SCHEDULER[0x3009]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+Setting Resource Manager plan SCHEDULER[0x3003]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2022-10-17 23:46:48.873
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter
+MMNL absent for 16852 secs; Foregrounds taking over
+
+*** 2022-10-19 08:56:19.055
+ktsmgtur(): TUR was not tuned for 16852 secs
+ktsmg_advance_slot(): MMNL advances slot after 16987 seconds
+Setting Resource Manager plan SCHEDULER[0x3005]:DEFAULT_MAINTENANCE_PLAN via scheduler window
+
+*** 2022-10-19 22:02:05.477
+Setting Resource Manager plan DEFAULT_MAINTENANCE_PLAN via parameter

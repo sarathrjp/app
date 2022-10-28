@@ -1,0 +1,30 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_ckpt_1108.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:5611M/16167M, Ph+PgF:9968M/24871M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 12
+Windows thread id: 1108, image: ORACLE.EXE (CKPT)
+
+
+*** 2022-10-14 07:52:13.314
+*** SESSION ID:(126.1) 2022-10-14 07:52:13.314
+*** CLIENT ID:() 2022-10-14 07:52:13.314
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-14 07:52:13.314
+*** MODULE NAME:() 2022-10-14 07:52:13.314
+*** ACTION NAME:() 2022-10-14 07:52:13.314
+ 
+Control file enqueue hold time tracking dump at time: 250152
+  1: 77407ms (rw) file: ktu.c line: 23478 count: 23 total: 1779940ms time: 200156
+  2: 33172ms (ro) file: kra.c line: 1954 count: 11 total: 364859ms time: 184756
+  3: 22125ms (ro) file: kra.c line: 1108 count: 11 total: 243251ms time: 186469
+Control file enqueue hold time tracking dump at time: 686562
+
+*** 2022-10-19 09:05:44.195
+  1: 77407ms (rw) file: ktu.c line: 23478 count: 36 total: 2735159ms time: 200156
+  2: 33172ms (ro) file: kra.c line: 1954 count: 11 total: 364859ms time: 184756
+  3: 22125ms (ro) file: kra.c line: 1108 count: 12 total: 265361ms time: 186469

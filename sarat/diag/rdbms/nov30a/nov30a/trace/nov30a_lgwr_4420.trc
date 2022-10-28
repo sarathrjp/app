@@ -1,0 +1,828 @@
+Trace file d:\app\sarat\diag\rdbms\nov30a\nov30a\trace\nov30a_lgwr_4420.trc
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Windows NT Version V6.2  
+CPU                 : 8 - type 8664, 4 Physical Cores
+Process Affinity    : 0x0x0000000000000000
+Memory (Avail/Total): Ph:6377M/16167M, Ph+PgF:9874M/24871M 
+Instance name: nov30a
+Redo thread mounted by this instance: 1
+Oracle process number: 11
+Windows thread id: 4420, image: ORACLE.EXE (LGWR)
+
+
+*** 2022-10-13 13:20:55.269
+*** SESSION ID:(95.1) 2022-10-13 13:20:55.269
+*** CLIENT ID:() 2022-10-13 13:20:55.269
+*** SERVICE NAME:(SYS$BACKGROUND) 2022-10-13 13:20:55.269
+*** MODULE NAME:() 2022-10-13 13:20:55.269
+*** ACTION NAME:() 2022-10-13 13:20:55.269
+ 
+Warning: log write elapsed time 11053ms, size 0KB
+*** 2022-10-13 13:21:50.554
+
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:22:45.833
+Warning: log write elapsed time 11056ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:23:41.103
+Warning: log write elapsed time 11052ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:23:52.160
+Warning: log write elapsed time 11055ms, size 5KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:35:17.590
+Warning: log write elapsed time 11052ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:35:28.645
+
+*** 2022-10-13 13:35:39.699
+Warning: log write elapsed time 11053ms, size 5KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:36:46.024
+Warning: log write elapsed time 11055ms, size 41KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:37:30.244
+Warning: log write elapsed time 11051ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:41:55.591
+Warning: log write elapsed time 11056ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:42:50.868
+Warning: log write elapsed time 11053ms, size 38KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:43:01.923
+Warning: log write elapsed time 11052ms, size 1KB
+
+*** 2022-10-13 13:43:35.087
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:49:17.776
+Warning: log write elapsed time 11019ms, size 315KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:49:28.828
+Warning: log write elapsed time 11052ms, size 1KB
+
+*** 2022-10-13 13:50:01.997
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:50:35.158
+Warning: log write elapsed time 11052ms, size 23KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:53:20.984
+Warning: log write elapsed time 11058ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:53:43.099
+Warning: log write elapsed time 11056ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:53:54.154
+
+*** 2022-10-13 13:54:05.208
+Warning: log write elapsed time 11054ms, size 3KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:55:11.535
+Warning: log write elapsed time 11054ms, size 4KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:55:44.697
+Warning: log write elapsed time 11055ms, size 22KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:57:24.180
+Warning: log write elapsed time 11051ms, size 20KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 13:57:46.289
+Warning: log write elapsed time 11052ms, size 4KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:02:22.673
+Warning: log write elapsed time 11046ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:05:08.484
+Warning: log write elapsed time 11054ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:15:05.493
+Warning: log write elapsed time 11020ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:15:16.546
+
+*** 2022-10-13 14:15:27.604
+Warning: log write elapsed time 11053ms, size 6KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:19:52.937
+Warning: log write elapsed time 11053ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:27:59.365
+Warning: log write elapsed time 11055ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:30:00.984
+Warning: log write elapsed time 11043ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:30:12.041
+Warning: log write elapsed time 11056ms, size 14KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:31:29.427
+Warning: log write elapsed time 11055ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:34:37.350
+Warning: log write elapsed time 11055ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:34:48.399
+Warning: log write elapsed time 11048ms, size 3KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:35:54.732
+Warning: log write elapsed time 11053ms, size 47KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:39:24.809
+Warning: log write elapsed time 11055ms, size 25KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:40:20.096
+Warning: log write elapsed time 11054ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:40:31.150
+
+*** 2022-10-13 14:40:42.203
+Warning: log write elapsed time 11033ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:41:48.540
+Warning: log write elapsed time 11052ms, size 9KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:44:45.429
+Warning: log write elapsed time 11054ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:44:56.486
+Warning: log write elapsed time 11056ms, size 27KB
+
+*** 2022-10-13 14:45:29.657
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:46:13.880
+Warning: log write elapsed time 11053ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:46:47.047
+Warning: log write elapsed time 11053ms, size 62KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:46:58.101
+
+*** 2022-10-13 14:47:09.158
+Warning: log write elapsed time 11052ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:49:10.755
+Warning: log write elapsed time 11051ms, size 309KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:51:23.419
+Warning: log write elapsed time 11036ms, size 21KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:58:34.607
+Warning: log write elapsed time 11033ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 14:58:45.662
+
+*** 2022-10-13 14:58:56.717
+Warning: log write elapsed time 11054ms, size 15KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:02:26.783
+Warning: log write elapsed time 11052ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:02:37.839
+
+*** 2022-10-13 15:02:48.893
+Warning: log write elapsed time 11055ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:03:11.005
+Warning: log write elapsed time 11017ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:03:22.065
+
+*** 2022-10-13 15:03:33.119
+Warning: log write elapsed time 11059ms, size 4KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:04:39.453
+Warning: log write elapsed time 11056ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:11:06.436
+Warning: log write elapsed time 11053ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:18:06.556
+Warning: log write elapsed time 11052ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:18:17.612
+Warning: log write elapsed time 11055ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:23:49.274
+Warning: log write elapsed time 11052ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:24:00.329
+Warning: log write elapsed time 11055ms, size 5KB
+
+*** 2022-10-13 15:24:33.504
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:30:49.396
+Warning: log write elapsed time 11032ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:31:00.450
+Warning: log write elapsed time 11054ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:31:33.619
+Warning: log write elapsed time 11055ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:32:39.956
+Warning: log write elapsed time 11053ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:32:51.017
+Warning: log write elapsed time 11060ms, size 28KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:33:24.187
+Warning: log write elapsed time 11054ms, size 43KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:33:35.239
+Warning: log write elapsed time 11045ms, size 32KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:34:19.460
+
+*** 2022-10-13 15:34:30.515
+Warning: log write elapsed time 11057ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:35:36.847
+Warning: log write elapsed time 11057ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:35:47.901
+Warning: log write elapsed time 11053ms, size 1KB
+
+*** 2022-10-13 15:36:21.062
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:37:05.282
+
+*** 2022-10-13 15:37:16.336
+Warning: log write elapsed time 11053ms, size 8KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:39:06.893
+Warning: log write elapsed time 11056ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:39:17.949
+Warning: log write elapsed time 11056ms, size 49KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:47:24.421
+Warning: log write elapsed time 11054ms, size 380KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:47:57.591
+Warning: log write elapsed time 11019ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:48:08.648
+Warning: log write elapsed time 11055ms, size 26KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:48:30.757
+Warning: log write elapsed time 11053ms, size 3KB
+
+*** 2022-10-13 15:49:03.922
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 15:50:21.307
+Warning: log write elapsed time 11037ms, size 27KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:00:51.481
+Warning: log write elapsed time 11054ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:02:08.864
+Warning: log write elapsed time 11051ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:02:19.922
+
+*** 2022-10-13 16:02:30.976
+Warning: log write elapsed time 11057ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:07:51.585
+Warning: log write elapsed time 11047ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:08:02.642
+Warning: log write elapsed time 11054ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:08:46.868
+
+*** 2022-10-13 16:08:57.924
+Warning: log write elapsed time 11056ms, size 5KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:13:34.320
+Warning: log write elapsed time 11045ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:13:45.379
+Warning: log write elapsed time 11058ms, size 5KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:16:53.327
+Warning: log write elapsed time 11051ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:26:06.119
+Warning: log write elapsed time 11035ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:31:26.740
+Warning: log write elapsed time 11051ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:35:29.970
+Warning: log write elapsed time 11035ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:35:41.022
+Warning: log write elapsed time 11051ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:38:48.950
+Warning: log write elapsed time 11017ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:39:00.004
+
+*** 2022-10-13 16:39:11.064
+Warning: log write elapsed time 11053ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:41:34.784
+Warning: log write elapsed time 11051ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:41:45.843
+
+*** 2022-10-13 16:41:56.904
+Warning: log write elapsed time 11058ms, size 8KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:46:11.162
+Warning: log write elapsed time 11055ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:46:22.220
+Warning: log write elapsed time 11057ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 16:51:31.798
+Warning: log write elapsed time 11048ms, size 3KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:00:44.583
+Warning: log write elapsed time 11051ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:04:14.647
+Warning: log write elapsed time 11055ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:04:25.703
+Warning: log write elapsed time 11054ms, size 4KB
+
+*** 2022-10-13 17:04:58.875
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:13:38.498
+Warning: log write elapsed time 11052ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:13:49.560
+
+*** 2022-10-13 17:14:00.614
+Warning: log write elapsed time 11061ms, size 6KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:15:29.055
+Warning: log write elapsed time 11051ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:16:57.505
+Warning: log write elapsed time 11050ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:29:29.289
+Warning: log write elapsed time 11035ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:29:40.343
+Warning: log write elapsed time 11051ms, size 4KB
+
+*** 2022-10-13 17:30:02.449
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:30:13.503
+Warning: log write elapsed time 11054ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:42:01.091
+Warning: log write elapsed time 11022ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:42:34.260
+Warning: log write elapsed time 11039ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:42:45.313
+Warning: log write elapsed time 11051ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:44:35.867
+Warning: log write elapsed time 11052ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:45:53.263
+Warning: log write elapsed time 11015ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:46:04.319
+Warning: log write elapsed time 11050ms, size 2KB
+
+*** 2022-10-13 17:46:37.485
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:46:48.544
+Warning: log write elapsed time 11058ms, size 6KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:54:43.970
+Warning: log write elapsed time 11037ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:54:55.024
+Warning: log write elapsed time 11053ms, size 5KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 17:59:09.300
+Warning: log write elapsed time 11056ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:07:26.829
+Warning: log write elapsed time 11053ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:13:42.727
+Warning: log write elapsed time 11053ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:13:53.782
+
+*** 2022-10-13 18:14:04.838
+Warning: log write elapsed time 11055ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:15:22.225
+Warning: log write elapsed time 11054ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:17:57.012
+Warning: log write elapsed time 11048ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:18:08.065
+Warning: log write elapsed time 11052ms, size 4KB
+
+*** 2022-10-13 18:18:41.230
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:20:09.674
+Warning: log write elapsed time 11045ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:20:20.726
+Warning: log write elapsed time 11052ms, size 5KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:28:27.164
+Warning: log write elapsed time 11052ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:32:52.496
+Warning: log write elapsed time 11052ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-13 18:43:00.576
+Warning: log write elapsed time 11053ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 00:17:37.129
+
+*** 2022-10-17 00:17:37.214
+Warning: log write elapsed time 1435059ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 11:58:17.509
+
+*** 2022-10-17 11:58:17.593
+Warning: log write elapsed time 171168ms, size 404KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:06:08.202
+Warning: log write elapsed time 3754059ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:18:06.834
+Warning: log write elapsed time 11036ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:19:57.446
+
+*** 2022-10-17 13:19:57.446
+Warning: log write elapsed time 11124ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:30:05.426
+Warning: log write elapsed time 11031ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:30:16.482
+Warning: log write elapsed time 11055ms, size 41KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:33:46.525
+Warning: log write elapsed time 11053ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:33:57.580
+Warning: log write elapsed time 11055ms, size 3KB
+
+*** 2022-10-17 13:34:41.805
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:35:26.025
+Warning: log write elapsed time 11053ms, size 27KB
+
+*** 2022-10-17 13:35:59.189
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:38:11.841
+Warning: log write elapsed time 11043ms, size 26KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:39:40.300
+Warning: log write elapsed time 11052ms, size 16KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:39:51.357
+
+*** 2022-10-17 13:40:02.483
+Warning: log write elapsed time 11055ms, size 34KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:52:01.021
+Warning: log write elapsed time 11013ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:52:45.239
+Warning: log write elapsed time 11054ms, size 47KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 13:59:12.136
+Warning: log write elapsed time 11053ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:04:10.598
+Warning: log write elapsed time 11031ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:13:23.354
+Warning: log write elapsed time 11062ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:13:45.469
+Warning: log write elapsed time 11042ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:13:56.527
+
+*** 2022-10-17 14:14:07.583
+Warning: log write elapsed time 11056ms, size 2KB
+
+*** 2022-10-17 14:14:40.749
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:15:58.136
+Warning: log write elapsed time 11018ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:16:09.189
+Warning: log write elapsed time 11048ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:17:15.518
+Warning: log write elapsed time 11052ms, size 4KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:27:12.470
+Warning: log write elapsed time 11052ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:27:23.520
+
+*** 2022-10-17 14:27:34.582
+Warning: log write elapsed time 11050ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:29:03.030
+Warning: log write elapsed time 11034ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:41:12.632
+Warning: log write elapsed time 11021ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:41:23.685
+Warning: log write elapsed time 11053ms, size 2KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:42:07.911
+
+*** 2022-10-17 14:42:18.963
+Warning: log write elapsed time 11059ms, size 19KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:43:25.292
+Warning: log write elapsed time 11057ms, size 94KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:43:58.459
+Warning: log write elapsed time 11055ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 14:53:22.254
+Warning: log write elapsed time 11035ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:00:22.340
+Warning: log write elapsed time 11052ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:00:33.396
+Warning: log write elapsed time 11055ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:05:31.874
+Warning: log write elapsed time 11048ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:05:42.930
+Warning: log write elapsed time 11054ms, size 38KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:14:33.560
+Warning: log write elapsed time 11052ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:17:30.430
+Warning: log write elapsed time 11044ms, size 3KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:28:22.656
+Warning: log write elapsed time 11052ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:30:24.273
+Warning: log write elapsed time 11027ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:30:35.328
+Warning: log write elapsed time 11054ms, size 5KB
+
+*** 2022-10-17 15:31:08.491
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:42:11.777
+Warning: log write elapsed time 11056ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:42:22.830
+Warning: log write elapsed time 11050ms, size 6KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:44:35.552
+Warning: log write elapsed time 11052ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:44:57.663
+Warning: log write elapsed time 11052ms, size 34KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:45:08.727
+Warning: log write elapsed time 11063ms, size 10KB
+
+*** 2022-10-17 15:45:41.885
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:54:32.503
+Warning: log write elapsed time 11053ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 15:54:43.557
+Warning: log write elapsed time 11048ms, size 37KB
+
+*** 2022-10-17 15:55:16.715
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 16:01:32.583
+Warning: log write elapsed time 11053ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 16:06:31.055
+Warning: log write elapsed time 11050ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 16:15:32.735
+Warning: log write elapsed time 11052ms, size 0KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 16:15:43.790
+
+*** 2022-10-17 16:15:54.843
+Warning: log write elapsed time 11053ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 16:17:34.339
+Warning: log write elapsed time 11046ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 16:17:45.394
+
+*** 2022-10-17 16:17:56.449
+Warning: log write elapsed time 11054ms, size 9KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-17 16:19:02.779
+Warning: log write elapsed time 11053ms, size 7KB
+ (set event 10468 level 4 to disable this warning)
+
+*** 2022-10-18 21:40:27.832
+
+*** 2022-10-18 21:40:27.949
+Warning: log write elapsed time 78820828ms, size 1KB
+ (set event 10468 level 4 to disable this warning)
