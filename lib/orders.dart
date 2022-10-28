@@ -3,6 +3,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:app/helper/list_products.dart';
 import 'package:app/main.dart';
+import 'package:app/helper/MedView.dart';
 
 class orders extends StatefulWidget{
   const orders({super.key});
@@ -67,79 +68,4 @@ class _orderstate extends State<orders> {
 
 
 
-
-class MedView extends StatefulWidget{
-  final double index;
-  final String name;
-  final String desc;
-  final double quant;
-  const MedView({Key? key,required this.index, required this.name, required this.desc, required this.quant}) : super(key: key);
-  @override
-  _medview createState() => _medview(index: this.index, name: this.name, desc: this.desc, quant: this.quant);
-}
-
-
-
-class _medview extends  State<MedView>{
-  double index;
-  String name;
-  String desc;
-  double quant;
-  _medview({required this.index, required this.name, required this.desc, required this.quant});
-
-  var items = ['1','2','3','4','5','6','7','8','9'];
-  String? dropdownvalue = '0';
-
-  Widget build(BuildContext){
-    return MaterialApp(
-        home: Scaffold(appBar: AppBar(
-        title: Text("Medicine Overview"),
-      ),
-      body: Center(
-        child:SingleChildScrollView(
-          child: Column(
-            //crossAxisAlignment: CrossAxisAlignment.center,
-            //mainAxisAlignment: MainAxisAlignment.start,
-            children: <Widget>[
-              Container(
-                alignment: Alignment.centerLeft,
-                padding: EdgeInsets.all(20),
-                child: Text("Medicine Name: ${name}",
-                style: TextStyle(
-                  fontSize: 25,
-                  fontWeight: FontWeight.bold,
-
-                ),
-                ),
-              ),
-              SizedBox(height: 20,),
-              Container(
-                alignment: Alignment.centerLeft,
-                padding: EdgeInsets.all(20),
-                child: (Text("Medicine Description: ",
-                style: TextStyle(
-                  fontSize: 25,
-                  fontWeight: FontWeight.bold,
-                ),
-
-                ))
-              ),
-
-              Container(
-                alignment: Alignment.centerLeft,
-                padding: EdgeInsets.fromLTRB(20,5,20,20),
-                child: Text(desc,
-                style: TextStyle(
-                  fontSize: 20
-                )),
-              ),
-
-
-            ],
-          )
-        )
-      ))
-    );
-  }
-}
 
