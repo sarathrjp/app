@@ -1,3 +1,5 @@
+//import 'dart:js';
+
 import 'package:flutter/material.dart';
 import 'package:app/home.dart';
 import 'package:app/UnderConstructionPage.dart';
@@ -7,6 +9,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:app/helper/list_products.dart';
 //import 'package:app/helper/ProductView.dart';
+import 'package:app/checkout.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +25,8 @@ void main() async{
       '/third': (context) => const construction(),
       '/fourth': (context) => orders(),
       'registration_screen': (context) => RegistrationScreen(),
-//      '/fifth': (context) => ProductView(),
+      'checkout_screen': (context) => Checkout(),
+//    '/fifth': (context) => ProductView(),
     },
   ));
 }

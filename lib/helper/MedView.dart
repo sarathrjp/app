@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class Carts{
   String? name;
   int? quantity;
-  double? price;
+  int? price;
 
   Carts({this.name, this.quantity, this.price});
 }
@@ -26,8 +27,9 @@ class _medview extends  State<MedView>{
   String name;
   String desc;
   double quant;
-  _medview({required this.index, required this.name, required this.desc, required this.quant});
   List<Carts> orders = [];
+  _medview({required this.index, required this.name, required this.desc, required this.quant});
+
   int? qty;
 
   Widget build(BuildContext){
@@ -73,8 +75,41 @@ class _medview extends  State<MedView>{
                                   fontSize: 20
                               )),
                         ),
+                        SizedBox(height: 100,),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            SizedBox(
+                              width: 200,
+                                child: TextField(
+                                  keyboardType: TextInputType.number,
+                                  inputFormatters: <TextInputFormatter>[FilteringTextInputFormatter.digitsOnly],
+                                  decoration: InputDecoration(
+                                    labelText: 'Quantity',
+                                    border: OutlineInputBorder(),
+                                  ),
+                                  onChanged: (value) {qty=int.parse(value);},
+                                )),
+                            SizedBox(width: 10,),
+                            SizedBox(
+                                width: 200,
+                                height: 60,
+                                child: ElevatedButton(
+                                  style: ElevatedButton.styleFrom(
+                                    minimumSize: const Size.fromHeight(30),
+                                  ),
+                                  child: const Text('Add To Cart'),
+                                  onPressed: () {Navigator.pushNamed(context, '/fourth');
+                                    setState(() {
+                                      orders.add(Carts(name: name, quantity: qty, price: (qty as dynamic)*10));
+                                      print(orders.length);
+                                    });
 
-
+                                  },
+                                ))
+                          ],
+                        )
 
                       ],
                     )
